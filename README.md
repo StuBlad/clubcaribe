@@ -12,15 +12,15 @@ We have a lot of screenshots as well as maps of Club Caribe and with that, I'd l
 Here are the main resources we'll be using to make this happen:
 
 Club Caribe screenshots and maps
-http://www.renoproject.org/imagearchive/index.php?/category/33
+* http://www.renoproject.org/imagearchive/index.php?/category/33
 
 Keith Elkins Club Caribe videos:
-https://www.youtube.com/watch?v=l7KwdqyyUO8
+* https://www.youtube.com/watch?v=l7KwdqyyUO8
 
-https://www.youtube.com/watch?v=uiUxAn7dxM8
+* https://www.youtube.com/watch?v=uiUxAn7dxM8
 
 NeoHabitat region database:
-https://github.com/frandallfarmer/neohabitat/tree/master/db
+* https://github.com/frandallfarmer/neohabitat/tree/master/db
 
 There is also a third video which hasn't been uploaded yet.
 
