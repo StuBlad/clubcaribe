@@ -1,5 +1,5 @@
 # Club Caribe remake
-This project aims to be a remake of the original Club Caribe world for the NeoHabitat server.
+This project aims to be a remake of the original Club Caribe world for the [NeoHabitat](http://www.renoproject.org) server.
 
 ![Club Caribe](http://www.renoproject.org/clubcaribe/ClubCaribeGroup.gif)
 
@@ -19,13 +19,13 @@ Keith Elkins Club Caribe videos:
 
 * https://www.youtube.com/watch?v=uiUxAn7dxM8
 
-NeoHabitat region database:
+[NeoHabitat](http://www.renoproject.org) region database:
 * https://github.com/frandallfarmer/neohabitat/tree/master/db
 
 There is also a third video which hasn't been uploaded yet.
 
 Bear in mind, there are some corrupted regions being show in the videos so please compare these against the screenshots we have. Also, the screenshots appear to be taken towards the end of Caribes life in 1994 so they should be considered canonical.
 
-The reason we include the NeoHabitat region database here is because a lot of the regions in Caribe were modified versions of Habitat ones. It will save us time if we can identify the base region from Habitat and then make the appropriate tweaks to bring it in line with their Caribe counterpart.
+The reason we include the [NeoHabitat](http://www.renoproject.org) region database here is because a lot of the regions in Caribe were modified versions of Habitat ones. It will save us time if we can identify the base region from Habitat and then make the appropriate tweaks to bring it in line with their Caribe counterpart.
 
 We hope to have more resources available in the future in order to help us reconstruct the world.
