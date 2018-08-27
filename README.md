@@ -1,6 +1,8 @@
 # Club Caribe remake
 This project aims to be a remake of the original Club Caribe world for the [NeoHabitat](http://www.renoproject.org) server.
 
+Please visit the [NeoHabitat Slack](http://slack.neohabitat.org/) and join the **#clubcaribe** channel if you'd like to get involved.
+
 ![Club Caribe](http://www.renoproject.org/clubcaribe/ClubCaribeGroup.gif)
 
 Club Caribe was the released version of Lucasfilm Games "Habitat" virtual world. It was available on the Commodore 64 in the USA via the Quantum Link service, who later became America Online. Habitat was notable for being the worlds first massively multiplayer online roleplaying game. Whilst Habitat was breaking new ground, Q-Link decided to strip the more esoteric elements from the world database, shipping it as "Club Caribe" where it was touted as an idyllic island getaway destination. Caribe was a heavily modified version of regions used in the original Habitat world, along with a bunch of freshly created regions especially for it.
