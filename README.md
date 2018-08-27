@@ -9,6 +9,8 @@ As far as we know, there are no database backups that exist of Club Caribe out t
 
 We have a lot of screenshots as well as maps of Club Caribe and with that, I'd like to work on recreating that world by hand. If you would like to contribute, feel free to submit a pull request.
 
+![Club Caribe remake](http://www.renoproject.org/clubcaribe/CaribeWelcome.gif)
+
 Here are the main resources we'll be using to make this happen:
 
 Club Caribe screenshots and maps
