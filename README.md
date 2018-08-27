@@ -31,3 +31,5 @@ Bear in mind, there are some corrupted regions being show in the videos so pleas
 The reason we include the [NeoHabitat](http://www.renoproject.org) region database here is because a lot of the regions in Caribe were modified versions of Habitat ones. It will save us time if we can identify the base region from Habitat and then make the appropriate tweaks to bring it in line with their Caribe counterpart.
 
 We hope to have more resources available in the future in order to help us reconstruct the world.
+
+If you are new to [NeoHabitat](http://www.renoproject.org) and how regions are put together, we highly recommend reading the [Region Creation and Porting](https://github.com/frandallfarmer/neohabitat/wiki/Region-Creation-and-Porting) page on the [NeoHabitat](http://www.renoproject.org) wiki page as well as the [Region testing procedure](https://github.com/frandallfarmer/neohabitat/wiki/Region-testing-procedure) wiki page.
