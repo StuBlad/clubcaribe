@@ -1,0 +1,217 @@
+[
+  {
+    "ref": "context-welcomeroom", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "the Welcome Room", 
+    "mods": [
+      {
+        "town_dir": UP, 
+        "neighbors": [
+          "context-test", 
+          "", 
+          "", 
+          ""
+        ], 
+        "orientation": 1, 
+        "nitty_bits": 3, 
+        "port_dir": UP, 
+        "type": "Region"
+      }
+    ]
+  }, 
+  {
+    "ref": "item-Wall.d9f8.welcomeroom", 
+    "mods": [
+      {
+        "style": 4, 
+        "orientation": 0, 
+        "y": 0, 
+        "x": 0, 
+        "type": "Wall"
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Ground.c8v7.welcomeroom", 
+    "mods": [
+      {
+        "style": 1, 
+        "orientation": 56,
+        "y": 4, 
+        "x": 0, 
+        "type": "Ground"
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Countertop.d9f7.welcomeroom", 
+    "mods": [
+      {
+        "y": 132, 
+        "x": 108,
+		"open_flags": 3,
+        "type": "Countertop", 
+        "orientation": 136
+      }
+    ], 
+    "type": "item", 
+    "name": "Countertop", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Sign1.d8s7.welcomeroom", 
+    "mods": [
+      {
+        "style": 6, 
+        "orientation": 208, 
+        "ascii": [
+		  129,
+		  131,
+		  32,
+          67,
+		  108,
+		  117,
+		  98,
+		  134,
+		  67,
+		  97,
+		  114,
+		  105,
+		  98,
+		  101
+        ], 
+        "gr_state": 3, 
+        "y": 45, 
+        "x": 10, 
+        "type": "Sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Sign", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Sign2.x8c7.welcomeroom", 
+    "mods": [
+      {
+        "style": 6, 
+        "orientation": 216, 
+        "ascii": [
+          133, 
+          129,
+          130,
+		  131,
+		  132,
+          87,
+		  101,
+		  108,
+		  99,
+		  111,
+		  109,
+		  101,
+		  134,
+		  32,
+		  32,
+		  128,
+		  116,
+		  111
+        ], 
+        "gr_state": 4, 
+        "y": 97, 
+        "x": 10, 
+        "type": "Sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Sign", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Picture1.d9a1.welcomeroom", 
+    "mods": [
+      {
+        "orientation": 16, 
+        "type": "Picture",
+        "mass": 1,
+        "style": 1, 
+        "y": 106, 
+        "x": 76
+      }
+    ], 
+    "type": "item", 
+    "name": "Picture", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Picture2.f8s6.welcomeroom", 
+    "mods": [
+      {
+        "orientation": 0, 
+        "type": "Picture",
+        "mass": 1,
+        "style": 2, 
+        "y": 88, 
+        "x": 104
+      }
+    ], 
+    "type": "item", 
+    "name": "Picture", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Chair1.v7s5.welcomeroom", 
+    "mods": [
+      {
+        "y": 5, 
+        "x": 112,
+		"style": 2,
+        "open_flags": 3,
+        "type": "Chair", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Chair", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Chair2.v7s5.welcomeroom", 
+    "mods": [
+      {
+        "y": 5, 
+        "x": 132,
+		"style": 2,
+        "open_flags": 3,
+        "type": "Chair", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Chair", 
+    "in": "context-welcomeroom"
+  },
+  {
+    "ref": "item-Door.j3h4.welcomeroom", 
+    "mods": [
+      {
+        "style": 1, 
+        "orientation": 176,
+        "connection": "context-test",  
+        "y": 32, 
+        "x": 68, 
+        "type": "Door", 
+        "open_flags": 2
+      }
+    ], 
+    "type": "item", 
+    "name": "Door", 
+    "in": "context-welcomeroom"
+  }
+]
