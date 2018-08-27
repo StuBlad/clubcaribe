@@ -1,0 +1,292 @@
+[
+  {
+    "ref": "context-CCPublicBulletins_5003", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "Public Bulletins (5003)", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "neighbors": [
+          "", 
+          "context-CCWelcomeRoom_5001", 
+          "", 
+          ""
+        ],
+        "realm": "Beach",            
+        "orientation": 0, 
+        "nitty_bits": 3, 
+        "port_dir": LEFT, 
+        "type": "Region"
+      }
+    ]
+  }, 
+  {
+    "ref": "item-Ground.d9f6.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "style": 1, 
+        "type": "Ground", 
+        "orientation": 188
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CCPublicBulletins_5003"
+  }, 
+  {
+    "ref": "item-Wall.x5m1.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 4, 
+        "type": "Wall", 
+        "orientation": 244
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CCPublicBulletins_5003"
+  }, 
+  {
+    "ref": "item-Wall.m4f7.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "y": 2, 
+        "x": 0, 
+        "style": 7, 
+        "type": "Wall", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CCPublicBulletins_5003"
+  },
+  {
+    "ref": "item-Table1.n7d6.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "style": 3, 
+        "orientation": 16, 
+        "key_hi": 5, 
+        "key_lo": 5, 
+        "gr_state": 0, 
+        "y": 27, 
+        "x": 12, 
+        "type": "Table", 
+        "open_flags": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Test Table", 
+    "in": "context-CCPublicBulletins_5003"
+  }, 
+  {
+    "ref": "item-Table2.d9g4.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "style": 3, 
+        "orientation": 16, 
+        "key_hi": 5, 
+        "key_lo": 5, 
+        "gr_state": 1, 
+        "y": 28, 
+        "x": 12, 
+        "type": "Table", 
+        "open_flags": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Test Table", 
+    "in": "context-CCPublicBulletins_5003"
+  }, 
+  {
+    "ref": "item-Table3.l3k4.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "style": 3, 
+        "orientation": 16, 
+        "key_hi": 5, 
+        "key_lo": 5, 
+        "gr_state": 0, 
+        "y": 27, 
+        "x": 92, 
+        "type": "Table", 
+        "open_flags": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Test Table", 
+    "in": "context-CCPublicBulletins_5003"
+  }, 
+  {
+    "ref": "item-Table4.n7x8.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "style": 3, 
+        "orientation": 16, 
+        "key_hi": 5, 
+        "key_lo": 5, 
+        "gr_state": 1, 
+        "y": 28, 
+        "x": 92, 
+        "type": "Table", 
+        "open_flags": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Test Table", 
+    "in": "context-CCPublicBulletins_5003"
+  }, 
+  {
+    "ref": "item-Short_sign1.c9v5.CCPublicBulletins_5003",
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 0, 
+        "gr_state": 1, 
+        "y": 81, 
+        "x": 12, 
+        "ascii": [
+		  128,
+		  133,
+		  32,
+          67,
+		  108,
+		  117,
+		  98
+        ], 
+        "type": "Short_sign"
+      }
+    ],
+    "type": "item",  
+    "name": "Short_sign", 
+    "in": "context-CCPublicBulletins_5003"
+  },
+  {
+    "ref": "item-Short_sign2.d8f7.CCPublicBulletins_5003",
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 0, 
+        "gr_state": 1, 
+        "y": 61, 
+        "x": 12, 
+        "ascii": [
+		  128,
+		  133,
+		  67,
+		  97,
+		  114,
+		  105,
+		  98,
+		  101
+        ], 
+        "type": "Short_sign"
+      }
+    ],
+    "type": "item",  
+    "name": "Short_sign", 
+    "in": "context-CCPublicBulletins_5003"
+  },
+  {
+    "ref": "item-Short_sign3.c9a1.CCPublicBulletins_5003",
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 0, 
+        "gr_state": 1, 
+        "y": 81, 
+        "x": 84, 
+        "ascii": [
+		  128,
+		  133,
+		  66,
+		  117,
+		  108,
+		  108,
+		  101,
+		  116,
+		  105,
+		  110
+        ], 
+        "type": "Short_sign"
+      }
+    ],
+    "type": "item",  
+    "name": "Short_sign", 
+    "in": "context-CCPublicBulletins_5003"
+  },
+  {
+    "ref": "item-Short_sign4.z6m2.CCPublicBulletins_5003",
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 0, 
+        "gr_state": 1, 
+        "y": 61, 
+        "x": 88, 
+        "ascii": [
+		  32,
+		  128,
+		  133,
+		  66,
+		  111,
+		  97,
+		  114,
+		  100,
+		  115
+        ], 
+        "type": "Short_sign"
+      }
+    ],
+    "type": "item",  
+    "name": "Short_sign", 
+    "in": "context-CCPublicBulletins_5003"
+  },
+  {
+    "ref": "item-Short_sign5.d8m1.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "style": 5, 
+        "orientation": 0, 
+        "ascii": [
+		  32,
+          72,
+          69,
+          76,
+          80,
+          128,		  
+          133, 
+          125
+        ], 
+        "gr_state": 3, 
+        "y": 130, 
+        "x": 60, 
+        "type": "Short_sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Short_sign", 
+    "in": "context-CCPublicBulletins_5003"
+  },
+  {
+    "ref": "item-Street1.k1m3.CCPublicBulletins_5003", 
+    "mods": [
+      {
+        "orientation": 8, 
+        "gr_state": 13, 
+        "y": 8, 
+        "x": 68,		
+        "type": "Street"
+      }
+    ], 
+    "type": "item", 
+    "name": "Street", 
+    "in": "context-CCPublicBulletins_5003"
+  } 
+]

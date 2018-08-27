@@ -1,6 +1,6 @@
 [
   {
-    "ref": "context-welcomeroom", 
+    "ref": "context-CCWelcomeRoom_5001", 
     "capacity": 64, 
     "type": "context", 
     "name": "the Welcome Room", 
@@ -8,7 +8,7 @@
       {
         "town_dir": UP, 
         "neighbors": [
-          "context-test", 
+          "context-CCPublicBulletins_5003", 
           "", 
           "", 
           ""
@@ -21,7 +21,7 @@
     ]
   }, 
   {
-    "ref": "item-Wall.d9f8.welcomeroom", 
+    "ref": "item-Wall.d9f8.CCWelcomeRoom_5001", 
     "mods": [
       {
         "style": 4, 
@@ -33,10 +33,10 @@
     ], 
     "type": "item", 
     "name": "Wall", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Ground.c8v7.welcomeroom", 
+    "ref": "item-Ground.c8v7.CCWelcomeRoom_5001", 
     "mods": [
       {
         "style": 1, 
@@ -48,10 +48,10 @@
     ], 
     "type": "item", 
     "name": "Ground", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Countertop.d9f7.welcomeroom", 
+    "ref": "item-Countertop.d9f7.CCWelcomeRoom_5001", 
     "mods": [
       {
         "y": 132, 
@@ -63,16 +63,16 @@
     ], 
     "type": "item", 
     "name": "Countertop", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Sign1.d8s7.welcomeroom", 
+    "ref": "item-Sign1.d8s7.CCWelcomeRoom_5001", 
     "mods": [
       {
         "style": 6, 
         "orientation": 208, 
         "ascii": [
-		  129,
+		  133,
 		  131,
 		  32,
           67,
@@ -95,10 +95,10 @@
     ], 
     "type": "item", 
     "name": "Sign", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Sign2.x8c7.welcomeroom", 
+    "ref": "item-Sign2.x8c7.CCWelcomeRoom_5001", 
     "mods": [
       {
         "style": 6, 
@@ -131,10 +131,10 @@
     ], 
     "type": "item", 
     "name": "Sign", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Picture1.d9a1.welcomeroom", 
+    "ref": "item-Picture1.d9a1.CCWelcomeRoom_5001", 
     "mods": [
       {
         "orientation": 16, 
@@ -147,10 +147,10 @@
     ], 
     "type": "item", 
     "name": "Picture", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Picture2.f8s6.welcomeroom", 
+    "ref": "item-Picture2.f8s6.CCWelcomeRoom_5001", 
     "mods": [
       {
         "orientation": 0, 
@@ -163,10 +163,10 @@
     ], 
     "type": "item", 
     "name": "Picture", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Chair1.v7s5.welcomeroom", 
+    "ref": "item-Chair1.v7s5.CCWelcomeRoom_5001", 
     "mods": [
       {
         "y": 5, 
@@ -179,10 +179,10 @@
     ], 
     "type": "item", 
     "name": "Chair", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Chair2.v7s5.welcomeroom", 
+    "ref": "item-Chair2.v7s5.CCWelcomeRoom_5001", 
     "mods": [
       {
         "y": 5, 
@@ -195,15 +195,15 @@
     ], 
     "type": "item", 
     "name": "Chair", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   },
   {
-    "ref": "item-Door.j3h4.welcomeroom", 
+    "ref": "item-Door.j3h4.CCWelcomeRoom_5001", 
     "mods": [
       {
         "style": 1, 
         "orientation": 176,
-        "connection": "context-test",  
+        "connection": "context-CCPublicBulletins_5003",  
         "y": 32, 
         "x": 68, 
         "type": "Door", 
@@ -212,6 +212,6 @@
     ], 
     "type": "item", 
     "name": "Door", 
-    "in": "context-welcomeroom"
+    "in": "context-CCWelcomeRoom_5001"
   }
 ]
