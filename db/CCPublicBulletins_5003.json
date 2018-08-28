@@ -8,9 +8,9 @@
       {
         "town_dir": "", 
         "neighbors": [
-          "", 
-          "context-CCWelcomeRoom_5001", 
-          "", 
+          "context-CCMainBeach_5012", 
+          "context-CC_5158", 
+          "context-CCMainBeach_5004", 
           ""
         ],
         "realm": "Beach",            

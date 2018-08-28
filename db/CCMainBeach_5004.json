@@ -1,0 +1,162 @@
+[
+  {
+    "ref": "context-CCMainBeach_5004", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "the Main Beach (5004)", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "neighbors": [
+          "context-CCPublicBulletins_5003", 
+          "", 
+          "", 
+          ""
+        ],
+        "realm": "Beach",          
+        "orientation": 0, 
+        "nitty_bits": 3, 
+        "port_dir": "", 
+        "type": "Region"
+      }
+    ]
+  }, 
+  {
+    "ref": "item-Ground.d2f3.CCMainBeach_5004", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "style": 1, 
+        "type": "Ground", 
+        "orientation": 188
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CCMainBeach_5004"
+  }, 
+  {
+    "ref": "item-Wall1.g4h5.CCMainBeach_5004", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 4, 
+        "type": "Wall", 
+        "orientation": 244
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CCMainBeach_5004"
+  }, 
+  {
+    "ref": "item-Wall2.j6k7.CCMainBeach_5004", 
+    "mods": [
+      {
+        "y": 2, 
+        "x": 0, 
+        "style": 7, 
+        "type": "Wall", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CCMainBeach_5004"
+  }, 
+  {
+    "ref": "item-Tree1.f2j8.CCMainBeach_5004", 
+    "mods": [
+      {
+        "y": 29, 
+        "x": 36, 
+        "style": 2, 
+        "type": "Tree", 
+        "orientation": 17
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CCMainBeach_5004"
+  }, 
+  {
+    "ref": "item-Tree2.l4g2.CCMainBeach_5004", 
+    "mods": [
+      {
+        "y": 25, 
+        "x": 120, 
+        "style": 2, 
+        "type": "Tree", 
+        "orientation": 16
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CCMainBeach_5004"
+  }, 
+  {
+    "ref": "item-Tree3.p5j2.CCMainBeach_5004", 
+    "mods": [
+      {
+        "y": 26, 
+        "x": 48, 
+        "style": 2, 
+        "type": "Tree", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CCMainBeach_5004"
+  }, 
+  {
+    "ref": "item-Plant1.s2f5.CCMainBeach_5004", 
+    "mods": [
+      {
+        "style": 1, 
+        "orientation": 16, 
+        "mass": 1, 
+        "y": 131, 
+        "x": 20, 
+        "type": "Plant"
+      }
+    ], 
+    "type": "item", 
+    "name": "Plant", 
+    "in": "context-CCMainBeach_5004"
+  }, 
+  {
+    "ref": "item-Plant2.m2n1.CCMainBeach_5004", 
+    "mods": [
+      {
+        "style": 1, 
+        "orientation": 49, 
+        "mass": 1, 
+        "y": 147, 
+        "x": 120, 
+        "type": "Plant"
+      }
+    ], 
+    "type": "item", 
+    "name": "Plant", 
+    "in": "context-CCMainBeach_5004"
+  },
+  {
+    "ref": "item-Teleport.d8f7.CCMainBeach_5004", 
+    "mods": [
+      {
+        "orientation": 168, 
+        "address": "Main Beach", 
+        "y": 136, 
+        "x": 80, 
+        "type": "Teleport", 
+        "activeState": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Teleport", 
+    "in": "context-CCMainBeach_5004"
+  }
+]
