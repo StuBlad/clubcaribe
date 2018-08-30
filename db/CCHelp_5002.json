@@ -9,13 +9,12 @@
         "town_dir": "", 
         "neighbors": [
           "", 
-          "", 
+          "context-CC_5137", 
           "", 
           "context-CC_5158"
-        ],
-        "realm": "Woods",             
+        ],            
         "orientation": 0, 
-        "nitty_bits": 1, 
+        "nitty_bits": 3, 
         "port_dir": "", 
         "type": "Region"
       }
@@ -197,7 +196,7 @@
         "x": 28,
 		"open_flags": 3,
         "type": "Countertop", 
-        "orientation": 16
+        "orientation": 144
       }
     ], 
     "type": "item", 

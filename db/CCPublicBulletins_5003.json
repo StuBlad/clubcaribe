@@ -12,10 +12,9 @@
           "context-CC_5158", 
           "context-CCMainBeach_5004", 
           ""
-        ],
-        "realm": "Beach",            
+        ],           
         "orientation": 0,
-        "depth": 29,		
+        "depth": 27,		
         "nitty_bits": 3, 
         "port_dir": LEFT, 
         "type": "Region"
