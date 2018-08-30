@@ -14,7 +14,8 @@
           ""
         ],
         "realm": "Beach",            
-        "orientation": 0, 
+        "orientation": 0,
+        "depth": 29,		
         "nitty_bits": 3, 
         "port_dir": LEFT, 
         "type": "Region"

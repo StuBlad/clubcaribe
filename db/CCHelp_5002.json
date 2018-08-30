@@ -1,0 +1,273 @@
+[
+  {
+    "ref": "context-CCHelp_5002", 
+    "capacity": 64,
+    "type": "context", 
+    "name": "Help (5002)", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "neighbors": [
+          "", 
+          "", 
+          "", 
+          "context-CC_5158"
+        ],
+        "realm": "Woods",             
+        "orientation": 0, 
+        "nitty_bits": 1, 
+        "port_dir": "", 
+        "type": "Region"
+      }
+    ]
+  }, 
+  {
+    "ref": "item-Ground.s8d7.CCHelp_5002", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "type": "Ground", 
+        "orientation": 204
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CCHelp_5002"
+  }, 
+  {
+    "ref": "item-Sky.x8c7.CCHelp_5002", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 4, 
+        "type": "Sky", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Sky", 
+    "in": "context-CCHelp_5002"
+  }, 
+  {
+    "ref": "item-Street.c8v7.CCHelp_5002", 
+    "mods": [
+      {
+        "orientation": 80, 
+        "height": 0, 
+        "width": 0, 
+        "y": 12, 
+        "x": 68, 
+        "type": "Street"
+      }
+    ], 
+    "type": "item", 
+    "name": "Street", 
+    "in": "context-CCHelp_5002"
+  }, 
+  {
+    "ref": "item-Sign1.z8c6.CCHelp_5002", 
+    "mods": [
+      {
+        "style": 0,
+		"gr_state": 1,
+        "orientation": 188, 
+        "ascii": [
+		  133,
+		  131,
+          67,
+		  76,
+		  85,
+		  66,
+		  32,
+		  32,
+		  32,
+		  67,
+		  65,
+		  82,
+		  73,
+		  66,
+		  69
+        ], 
+        "y": 26, 
+        "x": 36, 
+        "type": "Sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Sign", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Sign2.m4n2.CCHelp_5002", 
+    "mods": [
+      {
+        "style": 0,
+		"gr_state": 1,
+        "orientation": 188, 
+        "ascii": [
+		  133,
+		  129,
+          72,
+		  134,
+		  139,
+		  69,
+		  134,
+		  139,
+		  76,
+		  134,
+		  139,
+		  80
+        ], 
+        "y": 45, 
+        "x": 72, 
+        "type": "Sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Sign", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Tree1.s9c8.CCHelp_5002", 
+    "mods": [
+      {
+        "y": 72, 
+        "x": 12, 
+        "type": "Tree", 
+        "orientation": 173, 
+        "gr_state": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Tree2.p3j4.CCHelp_5002", 
+    "mods": [
+      {
+        "y": 74, 
+        "x": 20, 
+        "type": "Tree", 
+        "orientation": 172, 
+        "gr_state": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Tree3.z9x8.CCHelp_5002", 
+    "mods": [
+      {
+        "y": 35, 
+        "x": 16, 
+        "type": "Tree", 
+        "orientation": 172
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CCHelp_5002"
+  },   
+  {
+    "ref": "item-Teleport.s9d7.CCHelp_5002", 
+    "mods": [
+      {
+        "orientation": 168, 
+        "address": "Help", 
+        "y": 156, 
+        "x": 132, 
+        "type": "Teleport", 
+        "activeState": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Teleport", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Countertop.x8m1.CCHelp_5002", 
+    "mods": [
+      {
+        "y": 156, 
+        "x": 28,
+		"open_flags": 3,
+        "type": "Countertop", 
+        "orientation": 16
+      }
+    ], 
+    "type": "item", 
+    "name": "Countertop", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Plaque1.l2k4.CCHelp_5002", 
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 0, 
+        "last_page": 2, 
+        "gr_state": 0, 
+        "y": 184, 
+        "x": 28,
+        "path": "text-bookofrecords",		
+        "type": "Plaque"
+      }
+    ], 
+    "type": "item", 
+    "name": "The Great Book of Records", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Plant1.z8d7.CCHelp_5002", 
+    "mods": [
+      {
+        "style": 2, 
+        "orientation": 81, 
+        "mass": 1, 
+        "y": 158, 
+        "x": 16, 
+        "type": "Plant"
+      }
+    ], 
+    "type": "item", 
+    "name": "Plant", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Plant2.x2v3.CCHelp_5002", 
+    "mods": [
+      {
+        "style": 1, 
+        "orientation": 96, 
+        "mass": 1, 
+        "y": 28, 
+        "x": 60, 
+        "type": "Plant"
+      }
+    ], 
+    "type": "item", 
+    "name": "Plant", 
+    "in": "context-CCHelp_5002"
+  },
+  {
+    "ref": "item-Plant3.o2k4.CCHelp_5002", 
+    "mods": [
+      {
+        "style": 2, 
+        "orientation": 88, 
+        "mass": 1, 
+        "y": 155, 
+        "x": 124, 
+        "type": "Plant"
+      }
+    ], 
+    "type": "item", 
+    "name": "Plant", 
+    "in": "context-CCHelp_5002"
+  }
+]
