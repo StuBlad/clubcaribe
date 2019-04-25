@@ -119,7 +119,7 @@
         "y": 4, 
         "x": 0, 
         "style": 1, 
-        "type": "Sky", 
+        "type": "Ground", 
         "orientation": 188,
 		"flat_type": 2
       }
