@@ -1,0 +1,131 @@
+[
+  {
+    "ref": "context-CC_5138", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "(5138)", 
+    "mods": [
+      {
+        "town_dir": DOWN, 
+        "neighbors": [
+          "context-CCMainBeach_5004", 
+          "", 
+          "", 
+          ""
+        ],          
+        "orientation": 0, 
+        "nitty_bits": 3, 
+        "port_dir": RIGHT,
+        "depth": 30,		
+        "type": "Region"
+      }
+    ]
+  }, 
+  {
+    "ref": "item-wall.03b4.CC_5138", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0,
+        "style": 4,		
+        "type": "Wall", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CC_5138"
+  }, 
+  {
+    "ref": "item-ground.2011.CC_5138", 
+    "mods": [
+      {
+        "y": 3, 
+        "x": 0, 
+        "type": "Ground",
+        "flat_type": 2,		
+        "orientation": 244
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CC_5138"
+  },  
+  {
+    "ref": "item-tree.f9b7.CC_5138", 
+    "mods": [
+      {
+        "y": 5, 
+        "x": 14, 
+        "style": 7, 
+        "type": "Tree", 
+        "orientation": 1
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CC_5138"
+  }, 
+  {
+    "ref": "item-tree.8c99.CC_5138", 
+    "mods": [
+      {
+        "y": 14, 
+        "x": 22, 
+        "style": 7, 
+        "type": "Tree", 
+        "orientation": 1
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CC_5138"
+  }, 
+  {
+    "ref": "item-tree.34b1.CC_5138", 
+    "mods": [
+      {
+        "y": 23, 
+        "x": 30, 
+        "style": 7, 
+        "type": "Tree", 
+        "orientation": 1
+      }
+    ], 
+    "type": "item", 
+    "name": "Tree", 
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Street.d9f8.CC_5138", 
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 104, 
+        "gr_state": 1, 
+        "y": 5, 
+        "x": 68, 
+        "type": "Street"
+      }
+    ], 
+    "type": "item", 
+    "name": "Street", 
+    "in": "context-CC_5138"
+  },  
+  {
+    "ref": "item-ground2.ab92.CC_5138", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "style": 1, 
+        "type": "Sky", 
+        "orientation": 188,
+		"flat_type": 2
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CC_5138"
+  }
+]
