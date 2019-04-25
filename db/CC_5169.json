@@ -1,0 +1,172 @@
+[
+  {
+    "ref": "context-CC_5169", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "La Vous New (5169)", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "port_dir": DOWN, 
+        "type": "Region",
+        "orientation": 2,
+        "neighbors": [
+          "",
+          "context-CC_5169",
+          "",
+          "context-CC_5138"
+        ], 
+        "nitty_bits": 3
+      }
+    ]
+  }, 
+  {
+    "ref": "item-wall.c30c.CC_5169", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 5, 
+        "type": "Wall", 
+        "orientation": 148
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-ground.6b0e.CC_5169", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "style": 1, 
+        "type": "Ground", 
+        "orientation": 228
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-door.071c.CC_5169", 
+    "mods": [
+      {
+        "y": 161, 
+        "x": 64, 
+        "open_flags": 0,
+        "type": "Door",
+        "connection": "context-CC_5169",
+        "orientation": 140
+      }
+    ], 
+    "type": "item", 
+    "name": "Door", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-window.b9cb.CC_5169", 
+    "mods": [
+      {
+        "y": 51, 
+        "x": 16, 
+        "type": "Window", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Window", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-fortune_machine.e911.CC_5169", 
+    "mods": [
+      {
+        "y": 153, 
+        "x": 44, 
+        "type": "Fortune_machine", 
+        "orientation": 0, 
+        "gr_state": 2
+      }
+    ], 
+    "type": "item", 
+    "name": "Fortune_machine", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-fortune_machine.3627.CC_5169", 
+    "mods": [
+      {
+        "y": 153, 
+        "x": 104, 
+        "type": "Fortune_machine", 
+        "orientation": 0, 
+        "gr_state": 2
+      }
+    ], 
+    "type": "item", 
+    "name": "Fortune_machine", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-street.8fcc.CC_5169", 
+    "mods": [
+      {
+        "orientation": 104, 
+        "type": "Street", 
+        "gr_state": 12, 
+        "y": 8, 
+        "x": 68
+      }
+    ], 
+    "type": "item", 
+    "name": "Street", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-sign.232b.CC_5169", 
+    "mods": [
+      {
+        "style": 4, 
+        "orientation": 0, 
+        "ascii": [
+          133,
+          76,
+		  65,
+		  32,
+		  86,
+		  79,
+		  85,
+		  83,
+		  32,
+		  78,
+		  69,
+		  87
+        ], 
+        "gr_state": 2, 
+        "y": 108, 
+        "x": 32, 
+        "type": "Sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Sign", 
+    "in": "context-CC_5169"
+  }, 
+  {
+    "ref": "item-window.a45b.CC_5169", 
+    "mods": [
+      {
+        "y": 51, 
+        "x": 124, 
+        "type": "Window", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Window", 
+    "in": "context-CC_5169"
+  }
+]

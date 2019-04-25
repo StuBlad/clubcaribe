@@ -9,7 +9,7 @@
         "town_dir": DOWN, 
         "neighbors": [
           "context-CCMainBeach_5004", 
-          "", 
+          "context-CC_5169", 
           "", 
           ""
         ],          
