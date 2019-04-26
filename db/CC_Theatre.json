@@ -1,0 +1,131 @@
+[
+  {
+    "ref": "context-CC_Theatre", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "Theatre", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "neighbors": [
+          "context-CC_5169", 
+          "context-CC_Theatre", 
+          "context-CC_KellysExt", 
+          ""
+        ],
+        "orientation": 2, 
+        "nitty_bits": 3, 
+        "port_dir": "", 
+        "type": "Region"
+      }
+    ]
+  }, 
+  {
+    "ref": "item-Door.d8j1.CC_Theatre", 
+    "mods": [
+      {
+        "style": 1, 
+        "orientation": 56, 
+        "key_hi": 103, 
+        "key_lo": 30, 
+        "connection": "context-CC_Theatre", 
+        "gr_state": 0, 
+        "y": 32, 
+        "x": 20, 
+        "type": "Door", 
+        "open_flags": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Door", 
+    "in": "context-CC_Theatre"
+  }, 
+  {
+    "ref": "item-Ground.v8j2.CC_Theatre", 
+    "mods": [
+      {
+        "style": 1, 
+        "orientation": 220, 
+        "gr_state": 0, 
+        "y": 4, 
+        "x": 0, 
+        "type": "Ground"
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CC_Theatre"
+  }, 
+  {
+    "ref": "item-Wall.w9k2.CC_Theatre", 
+    "mods": [
+      {
+        "style": 4, 
+        "orientation": 112, 
+        "gr_state": 0, 
+        "y": 0, 
+        "x": 0, 
+        "type": "Wall"
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CC_Theatre"
+  }, 
+  {
+    "ref": "item-Street1.v8j2.CC_Theatre", 
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 104, 
+        "gr_state": 13, 
+        "y": 10, 
+        "x": 68, 
+        "type": "Street"
+      }
+    ], 
+    "type": "item", 
+    "name": "Street", 
+    "in": "context-CC_Theatre"
+  },
+  {
+    "ref": "item-Street2.d8f7.CC_Theatre", 
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 104, 
+        "gr_state": 9, 
+        "y": 10, 
+        "x": 22, 
+        "type": "Street"
+      }
+    ], 
+    "type": "item", 
+    "name": "Street", 
+    "in": "context-CC_Theatre"
+  },   
+  {
+    "ref": "item-Sign.s8j2.CC_Theatre", 
+    "mods": [
+      {
+        "style": 0, 
+        "orientation": 244, 
+        "ascii": [
+          139,		  
+          83,
+		  84,
+		  65,
+		  71,
+		  69
+        ], 
+        "gr_state": 0, 
+        "y": 73, 
+        "x": 52, 
+        "type": "Sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Sign", 
+    "in": "context-CC_Theatre"
+  }
+]

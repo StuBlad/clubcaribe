@@ -1,0 +1,360 @@
+[
+  {
+    "ref": "context-neocaribe", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "NeoCaribe Lobby", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "port_dir": DOWN, 
+        "type": "Region",
+        "orientation": 0,		
+        "neighbors": [
+          "",
+          "context-CC_ShopsPorter", 
+          "",
+          ""
+        ], 
+        "nitty_bits": 3
+      }
+    ]
+  }, 
+  {
+    "ref": "item-ground.d8j1.neocaribe", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "style": 1, 
+        "type": "Ground", 
+        "orientation": 196
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-neocaribe"
+  },
+  {
+    "ref": "item-wall.a9t4.neocaribe", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 4, 
+        "type": "Wall", 
+        "orientation": 252
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-neocaribe"
+  },
+  {
+    "ref": "item-sex_changer.k3j4.neocaribe", 
+    "mods": [
+      {
+        "y": 138, 
+        "x": 124, 
+        "type": "Sex_changer", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Sex_changer", 
+    "in": "context-neocaribe"
+  },
+  {
+    "ref": "item-head.g4h6.neocaribe", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 62, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_front.228a.neocaribe"
+  },
+  {
+    "ref": "item-head.h2s8.neocaribe", 
+    "mods": [
+      {
+        "y": 1, 
+        "x": 1, 
+        "style": 9, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_front.228a.neocaribe"
+  },
+  {
+    "ref": "item-head.j7k0.neocaribe", 
+    "mods": [
+      {
+        "y": 2, 
+        "x": 2, 
+        "style": 26, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_front.228a.neocaribe"
+  },
+  {
+    "ref": "item-head.g6g6.neocaribe", 
+    "mods": [
+      {
+        "y": 3, 
+        "x": 3, 
+        "style": 35, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_front.228a.neocaribe"
+  },
+  {
+    "ref": "item-head.h2s9.neocaribe", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 4, 
+        "style": 38, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_front.228a.neocaribe"
+  },
+  {
+    "ref": "item-head.d6t2.neocaribe", 
+    "mods": [
+      {
+        "y": 5, 
+        "x": 5, 
+        "style": 43, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_front.228a.neocaribe"
+  },
+  {
+    "ref": "item-head.k3c5.neocaribe", 
+    "mods": [
+      {
+        "y": 6, 
+        "x": 6, 
+        "style": 45, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_front.228a.neocaribe"
+  },
+  {
+    "ref": "item-vendo_front.228a.neocaribe", 
+    "mods": [
+      {
+        "display_item": 7, 
+        "orientation": 188, 
+        "key_lo": 0, 
+        "key_hi": 0, 
+        "y": 0, 
+        "x": 0, 
+        "type": "Vendo_front", 
+        "open_flags": 0,
+		"prices": [30, 30, 30, 30, 30, 30, 30, 30],
+        "item_price": 30
+      }
+    ], 
+    "type": "item", 
+    "name": "Vendo_front", 
+    "in": "item-vendo_inside.145c.neocaribe"
+  }, 
+  {
+    "ref": "item-head.h0q4.neocaribe", 
+    "mods": [
+      {
+        "y": 1, 
+        "x": 1, 
+        "style": 57, 
+        "type": "Head", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Head", 
+    "in": "item-vendo_inside.145c.neocaribe"
+  },  
+  {
+    "ref": "item-vendo_inside.145c.neocaribe", 
+    "mods": [
+      {
+        "orientation": 188, 
+        "key_lo": 0, 
+        "key_hi": 0, 
+        "y": 24, 
+        "x": 18, 
+        "type": "Vendo_inside", 
+        "open_flags": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Vendo_inside", 
+    "in": "context-neocaribe"
+  },
+  {
+    "ref": "item-spray_can.f6ca.neocaribe", 
+    "mods": [
+      {
+        "y": 3, 
+        "x": 3, 
+        "type": "Spray_can", 
+        "orientation": 56
+      }
+    ], 
+    "type": "item", 
+    "name": "Spray_can", 
+    "in": "item-vendo_front.e787.neocaribe"
+  }, 
+  {
+    "ref": "item-spray_can.ca68.neocaribe", 
+    "mods": [
+      {
+        "y": 5, 
+        "x": 5, 
+        "type": "Spray_can", 
+        "orientation": 40
+      }
+    ], 
+    "type": "item", 
+    "name": "Spray_can", 
+    "in": "item-vendo_front.e787.neocaribe"
+  }, 
+  {
+    "ref": "item-spray_can.22de.neocaribe", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "type": "Spray_can", 
+        "orientation": 8
+      }
+    ], 
+    "type": "item", 
+    "name": "Spray_can", 
+    "in": "item-vendo_front.e787.neocaribe"
+  }, 
+  {
+    "ref": "item-spray_can.1073.neocaribe", 
+    "mods": [
+      {
+        "y": 1, 
+        "x": 1, 
+        "type": "Spray_can", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Spray_can", 
+    "in": "item-vendo_front.e787.neocaribe"
+  }, 
+  {
+    "ref": "item-spray_can.3dd4.neocaribe", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 4, 
+        "type": "Spray_can", 
+        "orientation": 80
+      }
+    ], 
+    "type": "item", 
+    "name": "Spray_can", 
+    "in": "item-vendo_front.e787.neocaribe"
+  }, 
+  {
+    "ref": "item-spray_can.920b.neocaribe", 
+    "mods": [
+      {
+        "y": 2, 
+        "x": 2, 
+        "type": "Spray_can", 
+        "orientation": 112
+      }
+    ], 
+    "type": "item", 
+    "name": "Spray_can", 
+    "in": "item-vendo_front.e787.neocaribe"
+  }, 
+  {
+    "ref": "item-vendo_front.e787.neocaribe", 
+    "mods": [
+      {
+        "display_item": 6, 
+        "orientation": 112, 
+        "key_hi": 0, 
+        "key_lo": 0, 
+        "gr_state": 1, 
+        "y": 0, 
+        "x": 184, 
+        "type": "Vendo_front", 
+        "open_flags": 3,
+        "prices": [25, 25, 25, 25, 25, 25, 25],
+        "item_price": 25
+      }
+    ], 
+    "type": "item", 
+    "name": "Vendo_front", 
+    "in": "item-vendo_inside.e09e.neocaribe"
+  }, 
+  {
+    "ref": "item-spray_can.a4c3.neocaribe", 
+    "mods": [
+      {
+        "y": 1, 
+        "x": 1, 
+        "type": "Spray_can", 
+        "orientation": 16
+      }
+    ], 
+    "type": "item", 
+    "name": "Spray_can", 
+    "in": "item-vendo_inside.e09e.neocaribe"
+  }, 
+  {
+    "ref": "item-vendo_inside.e09e.neocaribe", 
+    "mods": [
+      {
+        "orientation": 112, 
+        "key_lo": 0, 
+        "key_hi": 0, 
+        "y": 24, 
+        "x": 64, 
+        "type": "Vendo_inside", 
+        "open_flags": 3
+      }
+    ], 
+    "type": "item", 
+    "name": "Vendo_inside", 
+    "in": "context-neocaribe"
+  }
+]

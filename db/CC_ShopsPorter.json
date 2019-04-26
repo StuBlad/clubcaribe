@@ -1,0 +1,165 @@
+[
+  {
+    "ref": "context-CC_ShopsPorter", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "Shops Teleport", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "port_dir": "", 
+        "type": "Region",
+        "orientation": 2,         
+        "neighbors": [
+          "context-CC_GenStoreExt",
+          "",
+          "",
+          "context-neocaribe"
+        ], 
+        "nitty_bits": 3
+      }
+    ]
+  }, 
+  {
+    "ref": "item-wall.s8v5.CC_ShopsPorter", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 5, 
+        "type": "Wall", 
+        "orientation": 0
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-CC_ShopsPorter"
+  }, 
+  {
+    "ref": "item-ground.c1m4.CC_ShopsPorter", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "style": 1, 
+        "type": "Ground", 
+        "orientation": 216
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-CC_ShopsPorter"
+  },  
+  {
+    "ref": "item-street1.j3d1.CC_ShopsPorter", 
+    "mods": [
+      {
+        "orientation": 104, 
+        "type": "Street", 
+        "gr_state": 7, 
+        "y": 10, 
+        "x": 68
+      }
+    ], 
+    "type": "item", 
+    "name": "Street", 
+    "in": "context-CC_ShopsPorter"
+  },    
+  {
+    "ref": "item-sign.g2h2.CC_ShopsPorter", 
+    "mods": [
+      {
+        "style": 6, 
+        "orientation": 232, 
+        "ascii": [
+		  133,
+          126,
+		  83,
+		  104,
+		  111,
+		  112,
+		  115,
+		  134,
+		  139,
+		  133,
+		  32,
+		  32,
+		  128,
+		  84,
+		  104,
+		  101,
+		  97,
+		  116,
+		  101,
+		  114,
+		  134,
+		  139,
+		  128,
+		  66,
+		  97,
+		  114,
+		  32,
+		  38,
+		  32,
+		  71,
+		  114,
+		  105,
+		  108,
+		  108
+        ], 
+        "gr_state": 2, 
+        "y": 71, 
+        "x": 70, 
+        "type": "Sign"
+      }
+    ], 
+    "type": "item", 
+    "name": "Sign", 
+    "in": "context-CC_ShopsPorter"
+  },
+  {
+    "ref": "item-atm1.v8s6.CC_ShopsPorter", 
+    "mods": [
+      {
+        "y": 50, 
+        "x": 8, 
+        "type": "Atm", 
+        "orientation": 0, 
+        "gr_state": 1
+      }
+    ], 
+    "type": "item", 
+    "name": "Atm", 
+    "in": "context-CC_ShopsPorter"
+  },
+  {
+    "ref": "item-atm2.l2m4.CC_ShopsPorter", 
+    "mods": [
+      {
+        "y": 50, 
+        "x": 36, 
+        "type": "Atm", 
+        "orientation": 0, 
+        "gr_state": 1
+      }
+    ], 
+    "type": "item", 
+    "name": "Atm", 
+    "in": "context-CC_ShopsPorter"
+  },
+  {
+    "ref": "item-teleport.b7m2.CC_ShopsPorter", 
+    "mods": [
+      {
+        "y": 136, 
+        "x": 128, 
+        "address": "shops",
+        "type": "Teleport", 
+        "orientation": 240
+      }
+    ], 
+    "type": "item", 
+    "name": "Teleport", 
+    "in": "context-CC_ShopsPorter"
+  }
+]
