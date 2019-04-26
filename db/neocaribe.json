@@ -70,7 +70,7 @@
       {
         "y": 0, 
         "x": 0, 
-        "style": 62, 
+        "style": 12, 
         "type": "Head", 
         "orientation": 56
       }
@@ -85,7 +85,7 @@
       {
         "y": 1, 
         "x": 1, 
-        "style": 9, 
+        "style": 97, 
         "type": "Head", 
         "orientation": 56
       }
@@ -100,7 +100,7 @@
       {
         "y": 2, 
         "x": 2, 
-        "style": 26, 
+        "style": 98, 
         "type": "Head", 
         "orientation": 56
       }
@@ -115,7 +115,7 @@
       {
         "y": 3, 
         "x": 3, 
-        "style": 35, 
+        "style": 100, 
         "type": "Head", 
         "orientation": 56
       }
@@ -130,7 +130,7 @@
       {
         "y": 4, 
         "x": 4, 
-        "style": 38, 
+        "style": 73, 
         "type": "Head", 
         "orientation": 56
       }
@@ -145,7 +145,7 @@
       {
         "y": 5, 
         "x": 5, 
-        "style": 43, 
+        "style": 61, 
         "type": "Head", 
         "orientation": 56
       }
@@ -160,7 +160,7 @@
       {
         "y": 6, 
         "x": 6, 
-        "style": 45, 
+        "style": 26, 
         "type": "Head", 
         "orientation": 56
       }
@@ -195,7 +195,7 @@
       {
         "y": 1, 
         "x": 1, 
-        "style": 57, 
+        "style": 13, 
         "type": "Head", 
         "orientation": 56
       }
