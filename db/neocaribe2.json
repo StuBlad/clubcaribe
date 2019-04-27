@@ -1,20 +1,20 @@
 [
   {
-    "ref": "context-neocaribe", 
+    "ref": "context-neocaribe2", 
     "capacity": 64, 
     "type": "context", 
-    "name": "NeoCaribe Lobby", 
+    "name": "neocaribe2 Lobby", 
     "mods": [
       {
         "town_dir": "", 
-        "port_dir": DOWN, 
+        "port_dir": "", 
         "type": "Region",
         "orientation": 0,
         "depth": 24,		
         "neighbors": [
-          "context-neocaribe2",
-          "context-CC_ShopsPorter", 
           "",
+          "", 
+          "context-neocaribe",
           ""
         ], 
         "nitty_bits": 3
@@ -22,7 +22,7 @@
     ]
   }, 
   {
-    "ref": "item-ground.d8j1.neocaribe", 
+    "ref": "item-ground.d8j1.neocaribe2", 
     "mods": [
       {
         "y": 4, 
@@ -34,10 +34,10 @@
     ], 
     "type": "item", 
     "name": "Ground", 
-    "in": "context-neocaribe"
+    "in": "context-neocaribe2"
   },
   {
-    "ref": "item-wall.a9t4.neocaribe", 
+    "ref": "item-wall.a9t4.neocaribe2", 
     "mods": [
       {
         "y": 0, 
@@ -49,129 +49,115 @@
     ], 
     "type": "item", 
     "name": "Wall", 
-    "in": "context-neocaribe"
+    "in": "context-neocaribe2"
   },
   {
-    "ref": "item-sex_changer.k3j4.neocaribe", 
-    "mods": [
-      {
-        "y": 138, 
-        "x": 124, 
-        "type": "Sex_changer", 
-        "orientation": 0
-      }
-    ], 
-    "type": "item", 
-    "name": "Sex_changer", 
-    "in": "context-neocaribe"
-  },
-  {
-    "ref": "item-head.g4h6.neocaribe", 
+    "ref": "item-head.g4h6.neocaribe2", 
     "mods": [
       {
         "y": 0, 
         "x": 0, 
-        "style": 12, 
+        "style": 89, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_front.228a.neocaribe"
+    "in": "item-vendo_front.228a.neocaribe2"
   },
   {
-    "ref": "item-head.h2s8.neocaribe", 
+    "ref": "item-head.h2s8.neocaribe2", 
     "mods": [
       {
         "y": 1, 
         "x": 1, 
-        "style": 97, 
+        "style": 109, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_front.228a.neocaribe"
+    "in": "item-vendo_front.228a.neocaribe2"
   },
   {
-    "ref": "item-head.j7k0.neocaribe", 
+    "ref": "item-head.j7k0.neocaribe2", 
     "mods": [
       {
         "y": 2, 
         "x": 2, 
-        "style": 98, 
+        "style": 131, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_front.228a.neocaribe"
+    "in": "item-vendo_front.228a.neocaribe2"
   },
   {
-    "ref": "item-head.g6g6.neocaribe", 
+    "ref": "item-head.g6g6.neocaribe2", 
     "mods": [
       {
         "y": 3, 
         "x": 3, 
-        "style": 100, 
+        "style": 134, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_front.228a.neocaribe"
+    "in": "item-vendo_front.228a.neocaribe2"
   },
   {
-    "ref": "item-head.h2s9.neocaribe", 
+    "ref": "item-head.h2s9.neocaribe2", 
     "mods": [
       {
         "y": 4, 
         "x": 4, 
-        "style": 73, 
+        "style": 157, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_front.228a.neocaribe"
+    "in": "item-vendo_front.228a.neocaribe2"
   },
   {
-    "ref": "item-head.d6t2.neocaribe", 
+    "ref": "item-head.d6t2.neocaribe2", 
     "mods": [
       {
         "y": 5, 
         "x": 5, 
-        "style": 61, 
+        "style": 182, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_front.228a.neocaribe"
+    "in": "item-vendo_front.228a.neocaribe2"
   },
   {
-    "ref": "item-head.k3c5.neocaribe", 
+    "ref": "item-head.k3c5.neocaribe2", 
     "mods": [
       {
         "y": 6, 
         "x": 6, 
-        "style": 26, 
+        "style": 183, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_front.228a.neocaribe"
+    "in": "item-vendo_front.228a.neocaribe2"
   },
   {
-    "ref": "item-vendo_front.228a.neocaribe", 
+    "ref": "item-vendo_front.228a.neocaribe2", 
     "mods": [
       {
         "display_item": 7, 
@@ -188,25 +174,25 @@
     ], 
     "type": "item", 
     "name": "Vendo_front", 
-    "in": "item-vendo_inside.145c.neocaribe"
+    "in": "item-vendo_inside.145c.neocaribe2"
   }, 
   {
-    "ref": "item-head.h0q4.neocaribe", 
+    "ref": "item-head.h0q4.neocaribe2", 
     "mods": [
       {
         "y": 1, 
         "x": 1, 
-        "style": 13, 
+        "style": 199, 
         "type": "Head", 
         "orientation": 56
       }
     ], 
     "type": "item", 
     "name": "Head", 
-    "in": "item-vendo_inside.145c.neocaribe"
+    "in": "item-vendo_inside.145c.neocaribe2"
   },  
   {
-    "ref": "item-vendo_inside.145c.neocaribe", 
+    "ref": "item-vendo_inside.145c.neocaribe2", 
     "mods": [
       {
         "orientation": 188, 
@@ -220,94 +206,100 @@
     ], 
     "type": "item", 
     "name": "Vendo_inside", 
-    "in": "context-neocaribe"
+    "in": "context-neocaribe2"
   },
   {
-    "ref": "item-spray_can.f6ca.neocaribe", 
+    "ref": "item-head.f6ca.neocaribe2", 
     "mods": [
       {
         "y": 3, 
         "x": 3, 
-        "type": "Spray_can", 
+        "type": "Head",
+        "style": 15,		
         "orientation": 56
       }
     ], 
     "type": "item", 
-    "name": "Spray_can", 
-    "in": "item-vendo_front.e787.neocaribe"
+    "name": "Head", 
+    "in": "item-vendo_front.e787.neocaribe2"
   }, 
   {
-    "ref": "item-spray_can.ca68.neocaribe", 
+    "ref": "item-head.ca68.neocaribe2", 
     "mods": [
       {
         "y": 5, 
         "x": 5, 
-        "type": "Spray_can", 
+        "type": "Head",
+        "style": 21, 
         "orientation": 40
       }
     ], 
     "type": "item", 
-    "name": "Spray_can", 
-    "in": "item-vendo_front.e787.neocaribe"
+    "name": "Head", 
+    "in": "item-vendo_front.e787.neocaribe2"
   }, 
   {
-    "ref": "item-spray_can.22de.neocaribe", 
+    "ref": "item-head.22de.neocaribe2", 
     "mods": [
       {
         "y": 0, 
         "x": 0, 
-        "type": "Spray_can", 
+        "type": "Head",
+        "style": 30, 
         "orientation": 8
       }
     ], 
     "type": "item", 
-    "name": "Spray_can", 
-    "in": "item-vendo_front.e787.neocaribe"
+    "name": "Head", 
+    "in": "item-vendo_front.e787.neocaribe2"
   }, 
   {
-    "ref": "item-spray_can.1073.neocaribe", 
+    "ref": "item-head.1073.neocaribe2", 
     "mods": [
       {
         "y": 1, 
         "x": 1, 
-        "type": "Spray_can", 
+        "type": "Head",
+        "style": 51, 
         "orientation": 0
       }
     ], 
     "type": "item", 
-    "name": "Spray_can", 
-    "in": "item-vendo_front.e787.neocaribe"
+    "name": "Head", 
+    "in": "item-vendo_front.e787.neocaribe2"
   }, 
   {
-    "ref": "item-spray_can.3dd4.neocaribe", 
+    "ref": "item-head.3dd4.neocaribe2", 
     "mods": [
       {
         "y": 4, 
         "x": 4, 
-        "type": "Spray_can", 
+        "type": "Head",
+        "style": 64, 
         "orientation": 80
       }
     ], 
     "type": "item", 
-    "name": "Spray_can", 
-    "in": "item-vendo_front.e787.neocaribe"
+    "name": "Head", 
+    "in": "item-vendo_front.e787.neocaribe2"
   }, 
   {
-    "ref": "item-spray_can.920b.neocaribe", 
+    "ref": "item-head.920b.neocaribe2", 
     "mods": [
       {
         "y": 2, 
         "x": 2, 
-        "type": "Spray_can", 
+        "type": "Head",
+        "style": 76, 
         "orientation": 112
       }
     ], 
     "type": "item", 
-    "name": "Spray_can", 
-    "in": "item-vendo_front.e787.neocaribe"
+    "name": "Head", 
+    "in": "item-vendo_front.e787.neocaribe2"
   }, 
   {
-    "ref": "item-vendo_front.e787.neocaribe", 
+    "ref": "item-vendo_front.e787.neocaribe2", 
     "mods": [
       {
         "display_item": 6, 
@@ -325,24 +317,25 @@
     ], 
     "type": "item", 
     "name": "Vendo_front", 
-    "in": "item-vendo_inside.e09e.neocaribe"
+    "in": "item-vendo_inside.e09e.neocaribe2"
   }, 
   {
-    "ref": "item-spray_can.a4c3.neocaribe", 
+    "ref": "item-head.a4c3.neocaribe2", 
     "mods": [
       {
         "y": 1, 
         "x": 1, 
-        "type": "Spray_can", 
+        "type": "Head",
+        "style": 87, 
         "orientation": 16
       }
     ], 
     "type": "item", 
-    "name": "Spray_can", 
-    "in": "item-vendo_inside.e09e.neocaribe"
+    "name": "Head", 
+    "in": "item-vendo_inside.e09e.neocaribe2"
   }, 
   {
-    "ref": "item-vendo_inside.e09e.neocaribe", 
+    "ref": "item-vendo_inside.e09e.neocaribe2", 
     "mods": [
       {
         "orientation": 112, 
@@ -356,6 +349,6 @@
     ], 
     "type": "item", 
     "name": "Vendo_inside", 
-    "in": "context-neocaribe"
+    "in": "context-neocaribe2"
   }
 ]
