@@ -1,0 +1,68 @@
+[
+  {
+    "ref": "context-backstage", 
+    "capacity": 64, 
+    "type": "context", 
+    "name": "Caribe Backstage", 
+    "mods": [
+      {
+        "town_dir": "", 
+        "port_dir": "", 
+        "type": "Region",
+        "orientation": 0,		
+        "neighbors": [
+          "",
+          "", 
+          "",
+          ""
+        ], 
+        "nitty_bits": 3
+      }
+    ]
+  }, 
+  {
+    "ref": "item-ground.d8j1.backstage", 
+    "mods": [
+      {
+        "y": 4, 
+        "x": 0, 
+        "style": 1, 
+        "type": "Ground", 
+        "orientation": 196
+      }
+    ], 
+    "type": "item", 
+    "name": "Ground", 
+    "in": "context-backstage"
+  },
+  {
+    "ref": "item-wall.a9t4.backstage", 
+    "mods": [
+      {
+        "y": 0, 
+        "x": 0, 
+        "style": 4, 
+        "type": "Wall", 
+        "orientation": 252
+      }
+    ], 
+    "type": "item", 
+    "name": "Wall", 
+    "in": "context-backstage"
+  },
+  {
+    "ref": "item-teleport.f8s6.backstage", 
+    "mods": [
+      {
+        "y": 136, 
+        "x": 128, 
+        "address": "backstage",
+        "type": "Teleport", 
+        "orientation": 240
+      }
+    ], 
+    "type": "item", 
+    "name": "Teleport", 
+    "in": "context-backstage"
+  }
+]
