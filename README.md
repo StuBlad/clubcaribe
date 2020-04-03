@@ -1,13 +1,7 @@
 # Club Caribe remake
 This project aims to be a remake of the original Club Caribe world for the [NeoHabitat](http://www.neohabitat.org) server.
 
-Please visit the [NeoHabitat Slack](http://slack.neohabitat.org/) and join the **#clubcaribe** channel if you'd like to get involved.
-
-**EDIT: 04/25/2019** - We now have a public Club Caribe world instance setup which you can access via an emulator or real C64. It will mirror the regions contained within this repository and be up 24/7.
-
-To connect to Club Caribe, please follow the instructions found [here](https://github.com/frandallfarmer/neohabitat) and connect via the following port and IP address.
-
-**Club Caribe - 134.209.120.197:1986**
+Please visit the [NeoHabitat Slack](http://slack.neohabitat.org/) and join the **#clubcaribe** channel if you'd like to get involved. Or ideally, you could join the [RenoProject Discord](https://discord.gg/S2VkerY) instead which is more active.
 
 ![Club Caribe](http://www.renoproject.org/clubcaribe/ClubCaribeGroup.gif)
 
