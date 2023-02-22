@@ -1,7 +1,7 @@
 # Club Caribe remake
 This project aims to be a remake of the original Club Caribe world for the [NeoHabitat](http://www.neohabitat.org) server.
 
-Please visit the [NeoHabitat Slack](http://slack.neohabitat.org/) and join the **#clubcaribe** channel if you'd like to get involved. Or ideally, you could join the [RenoProject Discord](https://discord.gg/S2VkerY) instead which is more active.
+Please visit the join the [RenoProject Discord](https://discord.gg/xagN9ay3pB) if you'd like to be involved.
 
 ![Club Caribe](http://www.renoproject.org/clubcaribe/ClubCaribeGroup.gif)
 
@@ -35,7 +35,7 @@ There is also a third video which hasn't been uploaded yet.
 
 Bear in mind, there are some corrupted regions being show in the videos so please compare these against the screenshots we have. Also, the screenshots appear to be taken towards the end of Caribes life in 1994 so they should be considered canonical. The 1994 documentary linked above was also filmed on the final day and as such, should be our main resource for all things Caribe, taking precedence over earlier regions seen in Keith Elkin's videos.
 
-The reason we include the [NeoHabitat](http://www.neohabitat.org) region database here is because a lot of the regions in Caribe were modified versions of Habitat ones. It will save us time if we can identify the base region from Habitat and then make the appropriate tweaks to bring it in line with their Caribe counterpart.
+The reason we reference the [NeoHabitat](http://www.neohabitat.org) region database here is because a lot of the regions in Caribe were modified versions of Habitat ones. It will save us time if we can identify the base region from Habitat and then make the appropriate tweaks to bring it in line with their Caribe counterpart.
 
 We hope to have more resources available in the future in order to help us reconstruct the world.
 
