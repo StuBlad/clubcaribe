@@ -3,6 +3,8 @@ This project aims to be a remake of the original Club Caribe world for the [NeoH
 
 Please visit the join the [RenoProject Discord](https://discord.gg/xagN9ay3pB) if you'd like to be involved.
 
+2024 Update: You can now use [SpindleyQ's Habitat inspector tool](https://frandallfarmer.github.io/neohabitat-doc/inspector/edit.html) to easily create Habitat and Caribe regions in the browser. Please use this moving forward, it is so much easier than starting up your own server and editing JSON files by hand.
+
 ![Club Caribe](http://www.renoproject.org/clubcaribe/ClubCaribeGroup.gif)
 
 Club Caribe was the released version of Lucasfilm Games "Habitat" virtual world. It was available on the Commodore 64 in the USA via the Quantum Link service, who later became America Online. Habitat was notable for being the worlds first massively multiplayer online roleplaying game.
