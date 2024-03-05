@@ -37,6 +37,8 @@ There is also a third video which hasn't been uploaded yet.
 
 Bear in mind, there are some corrupted regions being shown in Keith Elkin's Club Caribe videos so please compare these regions against the screenshots we have. Also, the screenshots linked above appear to be taken towards the end of Caribes life in 1994 so they should be considered canonical. The 1994 documentary linked above was also filmed on the final day and as such, should be our main resource for all things Caribe, taking precedence over earlier regions seen in Keith Elkin's videos and screenshots.
 
+The 1994 Documentary videos also feature the use of a compass object in every region which is amazing, because it tells us which direction is West. This is especially useful because we can use this to ascertain the actual orientation of the region itself and Habitat Inspector has a feature that will let you input the orientation as seen in the documentary videos, and it will automatically give you the correct orientation for that region. This ensures that all region connections will match up 1:1 with how they were in the original Club Caribe world. Thank you to Bld Stalker for the amazing foresight to do this back in 1994.
+
 The reason we reference the [NeoHabitat](http://www.neohabitat.org) region database here is because a lot of the regions in Caribe were modified versions of Habitat ones. It will save us time if we can identify the base region from Habitat and then make the appropriate tweaks to bring it in line with their Caribe counterpart.
 
 We hope to have more resources available in the future in order to help us reconstruct the world.
