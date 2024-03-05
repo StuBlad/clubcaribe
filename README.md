@@ -35,7 +35,7 @@ Keith Elkins Club Caribe videos:
 
 There is also a third video which hasn't been uploaded yet.
 
-Bear in mind, there are some corrupted regions being show in the videos so please compare these against the screenshots we have. Also, the screenshots appear to be taken towards the end of Caribes life in 1994 so they should be considered canonical. The 1994 documentary linked above was also filmed on the final day and as such, should be our main resource for all things Caribe, taking precedence over earlier regions seen in Keith Elkin's videos.
+Bear in mind, there are some corrupted regions being shown in Keith Elkin's Club Caribe videos so please compare these regions against the screenshots we have. Also, the screenshots linked above appear to be taken towards the end of Caribes life in 1994 so they should be considered canonical. The 1994 documentary linked above was also filmed on the final day and as such, should be our main resource for all things Caribe, taking precedence over earlier regions seen in Keith Elkin's videos and screenshots.
 
 The reason we reference the [NeoHabitat](http://www.neohabitat.org) region database here is because a lot of the regions in Caribe were modified versions of Habitat ones. It will save us time if we can identify the base region from Habitat and then make the appropriate tweaks to bring it in line with their Caribe counterpart.
 
