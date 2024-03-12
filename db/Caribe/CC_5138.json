@@ -1,0 +1,205 @@
+[
+  {
+    "ref": "context-CC_5138",
+    "capacity": 64,
+    "type": "context",
+    "name": "the Main Beach",
+    "mods": [
+      {
+        "town_dir": "",
+        "neighbors": [
+          "context-CCMainBeach_5004",
+          "context-CC_5169",
+          "",
+          ""
+        ],
+        "realm": "Dnalsi",
+        "orientation": 0,
+        "nitty_bits": 3,
+        "port_dir": "",
+        "depth": 30,
+        "type": "Region",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-Flat.ff39.CC_5138",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "type": "Flat",
+        "orientation": 244,
+        "flat_type": 3,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Flat",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Wall.f540.CC_5138",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 4,
+        "type": "Wall",
+        "orientation": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Trapezoid.d217.CC_5138",
+    "mods": [
+      {
+        "lower_right_x": 1,
+        "upper_left_x": 0,
+        "upper_right_x": 0,
+        "lower_left_x": 246,
+        "trapezoid_type": 0,
+        "y": 56,
+        "x": 32,
+        "height": 18,
+        "type": "Trapezoid",
+        "orientation": 156,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Trapezoid.23a9.CC_5138",
+    "mods": [
+      {
+        "lower_right_x": 19,
+        "upper_left_x": 254,
+        "upper_right_x": 24,
+        "lower_left_x": 6,
+        "trapezoid_type": 0,
+        "y": 48,
+        "x": 16,
+        "height": 8,
+        "type": "Trapezoid",
+        "orientation": 204,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Tree.e66d.CC_5138",
+    "mods": [
+      {
+        "y": 133,
+        "x": 12,
+        "style": 7,
+        "type": "Tree",
+        "orientation": 1,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Tree.9f9e.CC_5138",
+    "mods": [
+      {
+        "y": 142,
+        "x": 20,
+        "style": 7,
+        "type": "Tree",
+        "orientation": 1,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Tree.0e36.CC_5138",
+    "mods": [
+      {
+        "y": 151,
+        "x": 28,
+        "style": 7,
+        "type": "Tree",
+        "orientation": 1,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Flat.7722.CC_5138",
+    "mods": [
+      {
+        "y": 4,
+        "x": 24,
+        "type": "Flat",
+        "orientation": 244,
+        "flat_type": 1,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Flat",
+    "in": "context-CC_5138"
+  },
+  {
+    "ref": "item-Ground.699b.CC_5138",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 188,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_5138"
+  },
+  {
+    "type": "item",
+    "ref": "item-Street.d9f8.CC_5138",
+    "name": "Street",
+    "in": "context-CC_5138",
+    "mods": [
+      {
+        "type": "Street",
+        "x": 68,
+        "y": 4,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 104,
+        "height": 0,
+        "width": 0
+      }
+    ]
+  }
+]

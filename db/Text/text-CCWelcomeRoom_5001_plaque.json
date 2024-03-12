@@ -1,0 +1,39 @@
+{
+	"ref": "text-CCWelcomeRoom_5001_plaque",
+	"pages": [ 
+		"          TO LEAVE THIS ROOM:           " +
+		"                                        " +
+		" If the door is closed, place your      " +
+		" cursor on the door and issue a DO      " +
+		" command.  Then, with the cursor in     " +
+		" the black area representing the open   " +
+		" door issue a GO.                       " +
+		"                                        " +
+		" If the door is open simply put your    " +
+		" cursor on the black region and         " +
+		" issue a GO.                            " +
+		"                                        " +
+		" When you leave this room, you will be  " +
+		" in the Information room of the Club    " +
+		" Caribe Library.  In that room are      " +
+		"<<Click on NEXT for more...>>           ",
+		
+
+		
+		" books containing Help Text. To find    " +
+		" out the subject of the book, put your  " +
+		" cursor on the book and hit the F7      " +
+		" key.  If you wish to read the book,    " +
+		" put your cursor on the book and issue  " +
+		" a GET. Once the book is in your        " +
+		" hand, issue a DO.  Clicking on NEXT    " +
+		" will give you the next page.           " +
+		"                                        " +
+		" If you go down from the Information    " +
+		" room, you will find yourself in a      " +
+		" corridor of doors.  From there you     " +
+		" have the option of going into the      " +
+		" other rooms and reading the books      " +
+		" there if you'd like.                   " +
+		"                 END                    "]		
+}
