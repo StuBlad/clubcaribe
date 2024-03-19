@@ -6,7 +6,7 @@
     "name": "the Welcome Room",
     "mods": [
       {
-        "town_dir": "",
+        "town_dir": "|",
         "neighbors": [
           "context-CCPublicBulletins_5003",
           "",
@@ -96,7 +96,7 @@
           101
         ],
         "gr_state": 3,
-        "y": 39,
+        "y": 45,
         "x": 10,
         "type": "Sign"
       }
@@ -132,7 +132,7 @@
           111
         ],
         "gr_state": 4,
-        "y": 89,
+        "y": 97,
         "x": 10,
         "type": "Sign"
       }
@@ -180,11 +180,28 @@
     "mods": [
       {
         "y": 5,
-        "x": 123,
-        "style": 0,
+        "x": 112,
+        "style": 2,
         "open_flags": 3,
         "type": "Chair",
-        "orientation": 48,
+        "orientation": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Chair",
+    "in": "context-CCWelcomeRoom_5001"
+  },
+  {
+    "ref": "item-Chair2.v7s5.CCWelcomeRoom_5001",
+    "mods": [
+      {
+        "y": 5,
+        "x": 132,
+        "style": 2,
+        "open_flags": 3,
+        "type": "Chair",
+        "orientation": 0,
         "gr_state": 0
       }
     ],
@@ -198,7 +215,7 @@
       {
         "style": 1,
         "orientation": 176,
-        "connection": "context-CCPublicBulletins_5003",
+        "connection": "context-ClubCaribeLibrary",
         "y": 32,
         "x": 68,
         "type": "Door",
@@ -209,126 +226,5 @@
     "type": "item",
     "name": "Door",
     "in": "context-CCWelcomeRoom_5001"
-  },
-  {
-    "type": "item",
-    "ref": "Sign.gjds.context-CCWelcomeRoom_5001",
-    "name": "Sign",
-    "in": "context-CCWelcomeRoom_5001",
-    "mods": [
-      {
-        "type": "Sign",
-        "x": 18,
-        "y": 125,
-        "style": 0,
-        "gr_state": 1,
-        "orientation": 216,
-        "ascii": [
-          32,
-          32,
-          72,
-          105,
-          116,
-          32,
-          70,
-          49,
-          32,
-          116,
-          111,
-          134,
-          115,
-          101,
-          101,
-          32,
-          121,
-          111,
-          117,
-          114,
-          32,
-          103,
-          117,
-          101,
-          115,
-          116
-        ]
-      }
-    ]
-  },
-  {
-    "type": "item",
-    "ref": "Plaque.5ew1.context-CCWelcomeRoom_5001",
-    "name": "Plaque",
-    "in": "context-CCWelcomeRoom_5001",
-    "mods": [
-      {
-        "type": "Plaque",
-        "x": 101,
-        "y": 39,
-        "style": 2,
-        "gr_state": 0,
-        "orientation": 16,
-        "last_page": 1,
-        "pages": [],
-        "path": "text-CCWelcomeRoom_5001_plaque"
-      }
-    ]
-  },
-  {
-    "type": "item",
-    "ref": "Sign.jlls.context-CCWelcomeRoom_5001",
-    "name": "Sign",
-    "in": "context-CCWelcomeRoom_5001",
-    "mods": [
-      {
-        "type": "Sign",
-        "x": 96,
-        "y": 82,
-        "style": 0,
-        "gr_state": 1,
-        "orientation": 0,
-        "ascii": [
-          105,
-          115,
-          115,
-          117,
-          101,
-          32,
-          97,
-          32,
-          68,
-          79,
-          134,
-          119,
-          105,
-          116,
-          104,
-          32,
-          116,
-          104,
-          101,
-          32,
-          99,
-          117,
-          114,
-          115,
-          111,
-          114,
-          134,
-          111,
-          110,
-          32,
-          116,
-          104,
-          101,
-          32,
-          112,
-          108,
-          97,
-          113,
-          117,
-          101
-        ]
-      }
-    ]
   }
 ]
