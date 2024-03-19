@@ -8,7 +8,7 @@
       {
         "town_dir": "",
         "neighbors": [
-          "context-CCPublicBulletins_5003",
+          "",
           "",
           "",
           ""
@@ -20,7 +20,8 @@
         "x": 0,
         "y": 0,
         "style": 0,
-        "gr_state": 0
+        "gr_state": 0,
+        "realm": "Caribe"
       }
     ]
   },
@@ -198,7 +199,7 @@
       {
         "style": 1,
         "orientation": 176,
-        "connection": "context-CCPublicBulletins_5003",
+        "connection": "context-ClubCaribeLibrary",
         "y": 32,
         "x": 68,
         "type": "Door",
