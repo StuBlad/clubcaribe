@@ -1,0 +1,407 @@
+[
+  {
+    "capacity": 64,
+    "mods": [
+      {
+        "town_dir": "",
+        "neighbors": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "realm": "Caribe",
+        "orientation": 2,
+        "nitty_bits": 3,
+        "port_dir": "",
+        "depth": 25,
+        "type": "Region",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "ref": "context-CC_Library_Entrance",
+    "name": "the Library Entrance",
+    "type": "context"
+  },
+  {
+    "type": "item",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 5,
+        "type": "Wall",
+        "orientation": 204,
+        "gr_state": 0
+      }
+    ],
+    "ref": "item-wall.f8d9.CC_Library_Entrance",
+    "name": "Wall",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-ground.f9s8.CC_Library_Entrance",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 220,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-door.c9m2.CC_Library_Entrance",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 0,
+        "connection": "context-CC_Library_Lobby",
+        "y": 33,
+        "x": 52,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-trap.m2s8.CC_Library_Entrance",
+    "mods": [
+      {
+        "lower_right_x": 51,
+        "upper_left_x": 2,
+        "upper_right_x": 49,
+        "lower_left_x": 0,
+        "trapezoid_type": 2,
+        "y": 18,
+        "x": 52,
+        "height": 14,
+        "type": "Trapezoid",
+        "orientation": 8,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-sign.a8k3.CC_Library_Entrance",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 140,
+        "gr_state": 2,
+        "y": 104,
+        "x": 32,
+        "ascii": [
+          129,
+          129,
+          76,
+          73,
+          66,
+          82,
+          65,
+          82,
+          89
+        ],
+        "type": "Sign"
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-trap.j9f3.CC_Library_Entrance",
+    "mods": [
+      {
+        "lower_right_x": 19,
+        "upper_left_x": 0,
+        "upper_right_x": 19,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 24,
+        "x": 12,
+        "height": 144,
+        "type": "Trapezoid",
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-supertrap.r8s2.CC_Library_Entrance",
+    "mods": [
+      {
+        "pattern_x_size": 0,
+        "lower_right_x": 11,
+        "upper_left_x": 0,
+        "pattern": [
+          68,
+          68,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_right_x": 11,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 40,
+        "x": 16,
+        "height": 88,
+        "type": "Super_trapezoid",
+        "pattern_y_size": 0,
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Super Trapezoid",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-supertrap.q9s9.CC_Library_Entrance",
+    "mods": [
+      {
+        "pattern_x_size": 0,
+        "lower_right_x": 11,
+        "upper_left_x": 0,
+        "pattern": [
+          68,
+          68,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_right_x": 11,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 40,
+        "x": 128,
+        "height": 88,
+        "type": "Super_trapezoid",
+        "pattern_y_size": 0,
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Super Trapezoid",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-trap.l2k2.CC_Library_Entranceitem-trap3.",
+    "mods": [
+      {
+        "lower_right_x": 19,
+        "upper_left_x": 0,
+        "upper_right_x": 19,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 24,
+        "x": 124,
+        "height": 144,
+        "type": "Trapezoid",
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "ref": "item-door.a8e2.CC_Library_Entrance",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 1,
+        "connection": "context-Popustop.lobby.line3",
+        "y": 33,
+        "x": 92,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Entrance"
+  },
+  {
+    "type": "item",
+    "ref": "item-teleport.u8u4.CC_Library_Entrance",
+    "name": "Teleport",
+    "in": "context-CC_Library_Entrance",
+    "mods": [
+      {
+        "type": "Teleport",
+        "x": 132,
+        "y": 128,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 136,
+        "address": "CC-Library",
+        "take": 310,
+        "activeState": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "item-street.w9m2.CC_Library_Entrance",
+    "name": "Street",
+    "in": "context-CC_Library_Entrance",
+    "mods": [
+      {
+        "type": "Street",
+        "x": 68,
+        "y": 4,
+        "style": 0,
+        "gr_state": 6,
+        "orientation": 104,
+        "height": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "item-plaque.w2q4.CC_Library_Entrance",
+    "name": "Plaque",
+    "in": "context-CC_Library_Entrance",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 0,
+        "y": 101,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 24,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "item-plaque.k0s0.CC_Library_Entrance",
+    "name": "Plaque",
+    "in": "context-CC_Library_Entrance",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 132,
+        "y": 128,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 16,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "item-sign.g3q1.CC_Library_Entrance",
+    "name": "Sign",
+    "in": "context-CC_Library_Entrance",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 140,
+        "y": 40,
+        "style": 0,
+        "gr_state": 2,
+        "orientation": 8,
+        "ascii": [
+          73,
+          110,
+          102,
+          111,
+          134,
+          133,
+          128,
+          127
+        ]
+      }
+    ]
+  }
+]
