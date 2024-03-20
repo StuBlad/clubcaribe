@@ -1,0 +1,274 @@
+[
+  {
+    "ref": "context-CC_Library_Corridor",
+    "capacity": 64,
+    "type": "context",
+    "name": "Library Corridor",
+    "mods": [
+      {
+        "town_dir": "",
+        "neighbors": [
+          "",
+          "",
+          "",
+          "context-CC_Library_Lobby"
+        ],
+        "orientation": 2,
+        "depth": 28,
+        "nitty_bits": 3,
+        "port_dir": "}",
+        "type": "Region",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0,
+        "realm": "Caribe"
+      }
+    ]
+  },
+  {
+    "ref": "item-Door1.f8z4.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 180,
+        "key_hi": 0,
+        "key_lo": 0,
+        "connection": "context-Downtown_9178",
+        "y": 32,
+        "x": 36,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Sign.p9s8.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 0,
+        "ascii": [
+          66,
+          73,
+          79,
+          83,
+          32,
+          32,
+          32,
+          32,
+          76,
+          79,
+          82,
+          69,
+          32,
+          32,
+          32,
+          32,
+          73,
+          78,
+          70,
+          79,
+          32,
+          32,
+          32,
+          69,
+          86,
+          69,
+          78,
+          84,
+          83,
+          32,
+          32,
+          32,
+          75,
+          73,
+          68,
+          83
+        ],
+        "gr_state": 1,
+        "y": 112,
+        "x": 8,
+        "type": "Sign"
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Short_sign.z8x7.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 0,
+        "ascii": [
+          133,
+          69,
+          88,
+          73,
+          84,
+          134,
+          128,
+          32,
+          125
+        ],
+        "gr_state": 1,
+        "y": 19,
+        "x": 64,
+        "type": "Short_sign"
+      }
+    ],
+    "type": "item",
+    "name": "Short_sign",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Door2.d9a8.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 244,
+        "key_hi": 0,
+        "key_lo": 0,
+        "connection": "context-ClubCaribeLibrary",
+        "y": 32,
+        "x": 68,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Ground.m8c7.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 4,
+        "gr_state": 0,
+        "y": 3,
+        "x": 0,
+        "type": "Ground"
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Door3.f9a8.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 224,
+        "key_hi": 0,
+        "key_lo": 0,
+        "connection": "context-Downtown_9177",
+        "y": 32,
+        "x": 4,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Wall.x8c7.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 164,
+        "gr_state": 0,
+        "y": 0,
+        "x": 0,
+        "type": "Wall"
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Door4.s9d8.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 156,
+        "key_hi": 0,
+        "key_lo": 0,
+        "connection": "context-Downtown_9208",
+        "y": 32,
+        "x": 100,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "ref": "item-Door5.h9s8.CC_Library_Corridor",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 140,
+        "key_hi": 0,
+        "key_lo": 0,
+        "connection": "context-Downtown_9209",
+        "y": 32,
+        "x": 132,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Corridor"
+  },
+  {
+    "type": "item",
+    "ref": "Sign.hzqm.context-CC_Library_Corridor",
+    "name": "Sign",
+    "in": "context-CC_Library_Corridor",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 0,
+        "y": 124,
+        "style": 0,
+        "gr_state": 3,
+        "orientation": 0,
+        "ascii": [
+          133,
+          126,
+          32,
+          65,
+          82,
+          84,
+          32,
+          71,
+          65,
+          76,
+          76,
+          69,
+          82,
+          89
+        ]
+      }
+    ]
+  }
+]

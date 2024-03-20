@@ -1,0 +1,54 @@
+{
+	"ref": "text-caribelibrary_controlkeys_plaque",
+	"pages": [
+        " FUNCTION KEY USAGE                     " +
+        "                                        " +
+        " F1  Toggles between Guest and          " +
+        "     Spectator modes.                   " +
+        " F2  Toggles the region change music    " +
+        "     on or off.                         " +
+        " F3  Shows the last 12 people who have  " +
+        "     entered Club Caribe, if they are   " +
+        "     still online.                      " +
+        " F4  Shows a list of all CCGs online    " +
+        "     at the time.                       " +
+        " F5  Not used at this time.             " +
+        "                                        " +
+        "                                        " +
+		"                                        " +
+        "                                        ",
+
+        " F6  Changes (on your screen only) how  " +
+        "     \"skin tone\" (or pink) appears on   " +
+        "     your screen. For example, flesh    " +
+        "     tone on your screen could be       " +
+        "     light blue with dark blue hori-    " +
+        "     zontal stripes.                    " +
+        " F7  Gives HELP text for the object     " +
+        "     pointed at by the cursor, or the   " +
+        "     region name if the cursor is       " +
+        "     pointed at the ground.  F7 will    " +
+        "     also give the name of the person   " +
+        "     that the cursor is pointed to.     " +
+        "     It will show your name to that     " +
+        "     person at the same time.           " +
+        " F8  Not used at this time.             " +
+        "                                        ",
+		
+		" CONTROL-1: Wave     CONTROL-6: Face    " +
+		"                                rear    " +
+		"                                        " +
+		" CONTROL-2: Point    CONTROL-7: Bend    " +
+		"                                        " +
+		" CONTROL-3: Handout  CONTROL-8: Normal  " +
+		"                                        " +
+		" CONTROL-4: Jump     CONTROL-9: Punch   " +
+		"                                        " +
+		" CONTROL-5: Face     CONTROL-0: Frown*  " +
+		"            front                       " +
+		"                                        " +
+		"           * For selected head styles.  " +
+		"                                        " +
+		"                                        " +
+		"                                        "]	
+}

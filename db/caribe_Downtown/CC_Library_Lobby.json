@@ -1,0 +1,395 @@
+[
+  {
+    "ref": "context-CC_Library_Lobby",
+    "capacity": 64,
+    "type": "context",
+    "name": "Library Lobby",
+    "mods": [
+      {
+        "town_dir": "",
+        "port_dir": "}",
+        "type": "Region",
+        "orientation": 2,
+        "realm": "Caribe",
+        "neighbors": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "nitty_bits": 3,
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-ground.afea.CC_Library_Lobby",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 220,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_Library_Lobby"
+  },
+  {
+    "ref": "item-super_trapezoid.6ad8.CC_Library_Lobby",
+    "mods": [
+      {
+        "y": 1,
+        "x": 160,
+        "trapezoid_type": 1,
+        "upper_left_x": 96,
+        "upper_right_x": 255,
+        "lower_left_x": 96,
+        "lower_right_x": 0,
+        "height": 127,
+        "pattern_x_size": 1,
+        "pattern_y_size": 15,
+        "pattern": [
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          84,
+          5,
+          84,
+          69,
+          65,
+          80,
+          69,
+          20,
+          68,
+          68,
+          69,
+          20,
+          65,
+          80,
+          84,
+          69,
+          84,
+          5,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85,
+          85
+        ],
+        "type": "Super_trapezoid",
+        "orientation": 164,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Super_trapezoid",
+    "in": "context-CC_Library_Lobby"
+  },
+  {
+    "ref": "item-door.65fe.CC_Library_Lobby",
+    "mods": [
+      {
+        "y": 33,
+        "x": 12,
+        "open_flags": 2,
+        "type": "Door",
+        "orientation": 180,
+        "connection": "context-CC_Library_Corridor",
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Library_Lobby"
+  },
+  {
+    "ref": "item-sign.3320.CC_Library_Lobby",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 180,
+        "ascii": [
+          133,
+          32,
+          84,
+          72,
+          69,
+          32,
+          76,
+          79,
+          66,
+          66,
+          89
+        ],
+        "gr_state": 2,
+        "y": 96,
+        "x": 48,
+        "type": "Sign"
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_Library_Lobby"
+  },
+  {
+    "ref": "item-trapezoid.3acb.CC_Library_Lobby",
+    "mods": [
+      {
+        "y": 48,
+        "x": 52,
+        "trapezoid_type": 1,
+        "upper_left_x": 0,
+        "upper_right_x": 83,
+        "lower_left_x": 0,
+        "lower_right_x": 83,
+        "height": 168,
+        "type": "Trapezoid",
+        "orientation": 128,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_Library_Lobby"
+  },
+  {
+    "type": "item",
+    "ref": "item-glue.d8j2.CC_Library_Lobby",
+    "in": "context-CC_Library_Lobby",
+    "name": ".",
+    "mods": [
+      {
+        "type": "Glue",
+        "x": 44,
+        "y": 64,
+        "gr_state": 1,
+        "open_flags": 3,
+        "x_offset_1": 0,
+        "y_offset_1": 0,
+        "x_offset_2": 2,
+        "y_offset_2": 14,
+        "x_offset_3": 16,
+        "y_offset_3": 9,
+        "x_offset_4": 9,
+        "y_offset_4": 5,
+        "x_offset_5": 12,
+        "y_offset_5": 7,
+        "x_offset_6": 5,
+        "y_offset_6": 3,
+        "orientation": 0,
+        "style": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-plant.a24d.CC_Library_Lobby",
+    "mods": [
+      {
+        "style": 2,
+        "orientation": 92,
+        "mass": 1,
+        "y": 5,
+        "x": 5,
+        "type": "Plant",
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Plant",
+    "in": "item-glue.d8j2.CC_Library_Lobby"
+  },
+  {
+    "ref": "item-plant.8a6a.CC_Library_Lobby",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 100,
+        "mass": 1,
+        "y": 1,
+        "x": 1,
+        "type": "Plant",
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Plant",
+    "in": "item-glue.d8j2.CC_Library_Lobby"
+  },
+  {
+    "ref": "item-plant.024c.CC_Library_Lobby",
+    "mods": [
+      {
+        "style": 2,
+        "orientation": 101,
+        "mass": 1,
+        "y": 2,
+        "x": 2,
+        "type": "Plant",
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Plant",
+    "in": "item-glue.d8j2.CC_Library_Lobby"
+  },
+  {
+    "ref": "item-plant.7539.CC_Library_Lobby",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 21,
+        "mass": 1,
+        "y": 4,
+        "x": 4,
+        "type": "Plant",
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Plant",
+    "in": "item-glue.d8j2.CC_Library_Lobby"
+  },
+  {
+    "ref": "item-plant.43cd.CC_Library_Lobby",
+    "mods": [
+      {
+        "y": 3,
+        "x": 3,
+        "mass": 1,
+        "type": "Plant",
+        "orientation": 77,
+        "style": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Plant",
+    "in": "item-glue.d8j2.CC_Library_Lobby"
+  },
+  {
+    "type": "item",
+    "ref": "Couch.lp01.CC_Library_Lobby",
+    "name": "Couch",
+    "in": "context-CC_Library_Lobby",
+    "mods": [
+      {
+        "type": "Couch",
+        "x": 64,
+        "y": 145,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 16
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Chair.1o4z.CC_Library_Lobby",
+    "name": "Chair",
+    "in": "context-CC_Library_Lobby",
+    "mods": [
+      {
+        "type": "Chair",
+        "x": 40,
+        "y": 5,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 16,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Chair.5abx.CC_Library_Lobby",
+    "name": "Chair",
+    "in": "context-CC_Library_Lobby",
+    "mods": [
+      {
+        "type": "Chair",
+        "x": 136,
+        "y": 132,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 17,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Table.bkbz.CC_Library_Lobby",
+    "name": "Table",
+    "in": "context-CC_Library_Lobby",
+    "mods": [
+      {
+        "type": "Table",
+        "x": 124,
+        "y": 14,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 8,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Short_sign.cqdy.CC_Library_Lobby",
+    "name": "Short_sign",
+    "in": "context-CC_Library_Lobby",
+    "mods": [
+      {
+        "type": "Short_sign",
+        "x": 12,
+        "y": 104,
+        "style": 5,
+        "gr_state": 8,
+        "orientation": 160,
+        "ascii": [
+          32,
+          128,
+          66,
+          79,
+          79,
+          75,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Wall.xly6.CC_Library_Lobby",
+    "name": "Wall",
+    "in": "context-CC_Library_Lobby",
+    "mods": [
+      {
+        "type": "Wall",
+        "x": 0,
+        "y": 0,
+        "style": 4,
+        "gr_state": 0,
+        "orientation": 0
+      }
+    ]
+  }
+]

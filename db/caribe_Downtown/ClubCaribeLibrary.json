@@ -11,7 +11,7 @@
           "",
           "",
           "",
-          ""
+          "context-CC_Library_Corridor"
         ],
         "realm": "Caribe",
         "orientation": 2,
@@ -246,8 +246,7 @@
         "gr_state": 0,
         "orientation": 0,
         "last_page": 1,
-        "pages": [],
-        "path": "text-bookofrecords"
+        "path": "text-caribelibrary_teleports_plaque"
       }
     ]
   },
@@ -265,8 +264,7 @@
         "gr_state": 0,
         "orientation": 0,
         "last_page": 1,
-        "pages": [],
-        "path": "text-bookofrecords"
+        "path": "text-caribelibrary_controlkeys_plaque"
       }
     ]
   },
@@ -284,8 +282,7 @@
         "gr_state": 0,
         "orientation": 0,
         "last_page": 1,
-        "pages": [],
-        "path": "text-bookofrecords"
+        "path": "text-caribelibrary_index_plaque"
       }
     ]
   },
