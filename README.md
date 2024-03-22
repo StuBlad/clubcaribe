@@ -1,7 +1,7 @@
 # Club Caribe remake
 This project aims to be a remake of the original Club Caribe world for the [NeoHabitat](http://www.neohabitat.org) server.
 
-Please visit the join the [RenoProject Discord](https://discord.gg/xagN9ay3pB) if you'd like to be involved.
+Please visit the join the [RenoProject Discord](https://discord.gg/xagN9ay3pB) if you'd like to be involved or join the [NeoHabitat Slack](https://join.slack.com/t/neohabitat/shared_invite/zt-29umovwqu-R7KT2d4qQ3HhwHDZ3TMNew), specifically in the #clubcaribe channel.
 
 2024 Update: You can now use [SpindleyQ's Habitat inspector tool](https://frandallfarmer.github.io/neohabitat-doc/inspector/edit.html) to easily create Habitat and Caribe regions in the browser. Please use this moving forward, it is so much easier than starting up your own server and editing JSON files by hand.
 
