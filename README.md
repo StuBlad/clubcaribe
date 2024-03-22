@@ -39,6 +39,7 @@ Keith Elkins Club Caribe videos:
 [NeoHabitat](http://www.neohabitat.org) region database:
 * https://github.com/frandallfarmer/neohabitat/tree/master/db (Master JSON files for every region in the Habitat database)
 * https://renoproject.org/imagearchive/index.php?/category/116 (Screenshots of every region in Habitat)
+* https://frandallfarmer.github.io/neohabitat-doc/inspector/index.html#regions (Explore every region in Habitat using the Habitat Inspector to see regions in real time and edit them too)
 
 The 1994 footage of Club Caribe was filmed the day before it closed and thanks to us having 10 hours of footage of the world, it's also pretty complete. This is going to be our canonical source we are working to recreate for the most part. Around 250 regions were recorded in some fashion on these tapes which makes up a bulk of the world, but it is not complete.
 
