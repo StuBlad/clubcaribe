@@ -1,0 +1,475 @@
+[
+  {
+    "ref": "context-CC_Arcade_Entrance",
+    "capacity": 64,
+    "type": "context",
+    "name": "Caribe Arcade",
+    "mods": [
+      {
+        "town_dir": "",
+        "port_dir": "|",
+        "type": "Region",
+        "orientation": 2,
+        "realm": "Caribe",
+        "depth": 30,
+        "neighbors": [
+          "",
+          "",
+          "context-CC_Library_Entrance",
+          ""
+        ],
+        "nitty_bits": 3,
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-wall.f6fe.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 5,
+        "type": "Wall",
+        "orientation": 148,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-ground.5f74.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 188,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-trapezoid.70a9.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "y": 32,
+        "x": 100,
+        "trapezoid_type": 0,
+        "upper_left_x": 0,
+        "upper_right_x": 19,
+        "lower_left_x": 0,
+        "lower_right_x": 19,
+        "height": 96,
+        "type": "Trapezoid",
+        "orientation": 252,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-sign.8c5c.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "orientation": 0,
+        "type": "Sign",
+        "gr_state": 1,
+        "y": 126,
+        "x": 100,
+        "ascii": [
+          133,
+          131,
+          129,
+          65,
+          134,
+          82,
+          134,
+          67,
+          134,
+          65,
+          134,
+          68,
+          134,
+          69,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "style": 0
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-sign.fcfd.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "orientation": 0,
+        "type": "Sign",
+        "gr_state": 6,
+        "y": 254,
+        "x": 96,
+        "ascii": [
+          133,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          32,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          32
+        ],
+        "style": 0
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-sign.a3a2.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "orientation": 0,
+        "type": "Sign",
+        "gr_state": 7,
+        "y": 250,
+        "x": 96,
+        "ascii": [
+          133,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          32,
+          137,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46
+        ],
+        "style": 0
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-sign.ae27.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "orientation": 0,
+        "type": "Sign",
+        "gr_state": 8,
+        "y": 246,
+        "x": 96,
+        "ascii": [
+          133,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          134,
+          134,
+          46,
+          138,
+          138,
+          32,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          137,
+          137,
+          136,
+          46,
+          32,
+          32
+        ],
+        "style": 0
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-door.b6fb.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "orientation": 204,
+        "type": "Door",
+        "y": 33,
+        "x": 28,
+        "open_flags": 2,
+        "connection": "context-Downtown_8g",
+        "style": 4,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "ref": "item-street.cbb4.CC_Arcade_Entrance",
+    "mods": [
+      {
+        "orientation": 104,
+        "type": "Street",
+        "gr_state": 9,
+        "y": 10,
+        "x": 32,
+        "style": 0
+      }
+    ],
+    "type": "item",
+    "name": "Street",
+    "in": "context-CC_Arcade_Entrance"
+  },
+  {
+    "type": "item",
+    "ref": "Door.4p3j.CC_Arcade_Entrance",
+    "name": "Door",
+    "in": "context-CC_Arcade_Entrance",
+    "mods": [
+      {
+        "type": "Door",
+        "x": 68,
+        "y": 33,
+        "style": 4,
+        "gr_state": 0,
+        "orientation": 205,
+        "open_flags": 2,
+        "connection": "context-Downtown_8g"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Street.q6je.CC_Arcade_Entrance",
+    "name": "Street",
+    "in": "context-CC_Arcade_Entrance",
+    "mods": [
+      {
+        "type": "Street",
+        "x": 120,
+        "y": 10,
+        "style": 0,
+        "gr_state": 9,
+        "orientation": 105
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Street.hmni.CC_Arcade_Entrance",
+    "name": "Street",
+    "in": "context-CC_Arcade_Entrance",
+    "mods": [
+      {
+        "type": "Street",
+        "x": 208,
+        "y": 10,
+        "style": 0,
+        "gr_state": 3,
+        "orientation": 105
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.q19k.CC_Arcade_Entrance",
+    "name": "Sign",
+    "in": "context-CC_Arcade_Entrance",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 4,
+        "y": 251,
+        "style": 0,
+        "gr_state": 9,
+        "orientation": 8,
+        "ascii": [
+          133,
+          131,
+          129,
+          67,
+          65,
+          82,
+          73,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.8d53.CC_Arcade_Entrance",
+    "name": "Sign",
+    "in": "context-CC_Arcade_Entrance",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 4,
+        "y": 123,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 8,
+        "ascii": [
+          133,
+          131,
+          129,
+          67,
+          65,
+          82,
+          73,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.8ae1.context-CC_Arcade_Entrance",
+    "name": "Trapezoid",
+    "in": "context-CC_Arcade_Entrance",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 6,
+        "y": 105,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 252,
+        "trapezoid_type": 0,
+        "upper_left_x": 0,
+        "upper_right_x": 96,
+        "lower_left_x": 0,
+        "lower_right_x": 96,
+        "height": 22
+      }
+    ]
+  }
+]
