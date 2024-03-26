@@ -24,6 +24,8 @@ If you have any of the following items, please get in touch with me via [e-mail]
 ## How to Collaborate
 Using the tools and resources below, select a region from the [screenshot library containing Club Caribe regions](https://renoproject.org/imagearchive/index.php?/category/277) and [check to see if it has already been created](https://github.com/StuBlad/clubcaribe/tree/master/db). If it hasn't been worked on, [create the region](https://frandallfarmer.github.io/neohabitat-doc/inspector/edit.html), [check it for any issues](https://github.com/frandallfarmer/neohabitat/wiki/Region-testing-procedure) and then submit a pull request. I will review all PR's and check your region out for any issues and if it's good to go, then it'll be merged into this repository.
 
+Stubs have been made for regions that we know exist and have a screenshot of. These allow you to not only move around the world unimpeded even if a region doesn't exist yet, but you can also use it as a template to build upon as it's already hooked up to the world map.
+
 To avoid any duplication of work, I highly recommend that you join the [NeoHabitat Slack](https://join.slack.com/t/neohabitat/shared_invite/zt-29umovwqu-R7KT2d4qQ3HhwHDZ3TMNew) to see if anyone else is already working on that region or area.
 
 For more detailed information, see below.
