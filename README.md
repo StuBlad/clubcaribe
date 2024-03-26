@@ -10,7 +10,7 @@ Whilst Habitat was breaking new ground, Q-Link decided to strip the more esoteri
 
 As far as we know, there are no database backups that exist of Club Caribe out there.
 
-We have a lot of screenshots as well as maps of Club Caribe and with that, I'd like to work on recreating that world by hand. If you would like to contribute, please join the [RenoProject Discord](https://discord.gg/xagN9ay3pB) or the [NeoHabitat Slack](https://join.slack.com/t/neohabitat/shared_invite/zt-29umovwqu-R7KT2d4qQ3HhwHDZ3TMNew) and feel free to submit a pull request.
+We have a lot of screenshots as well as maps of Club Caribe and with that, I'd like to work on recreating that world by hand. If you would like to contribute, please join the [NeoHabitat Slack](https://join.slack.com/t/neohabitat/shared_invite/zt-29umovwqu-R7KT2d4qQ3HhwHDZ3TMNew) and feel free to submit a pull request.
 
 ## Do you have any Club Caribe related paraphenalia or archival material?
 If you have any of the following items, please get in touch with me via [e-mail](mailto:stuart@renoproject.org). It could help to make this restoration project even more accurate.
@@ -24,7 +24,7 @@ If you have any of the following items, please get in touch with me via [e-mail]
 ## How to Collaborate
 Using the tools and resources below, select a region from the [screenshot library containing Club Caribe regions](https://renoproject.org/imagearchive/index.php?/category/277) and [check to see if it has already been created](https://github.com/StuBlad/clubcaribe/tree/master/db). If it hasn't been worked on, [create the region](https://frandallfarmer.github.io/neohabitat-doc/inspector/edit.html), [check it for any issues](https://github.com/frandallfarmer/neohabitat/wiki/Region-testing-procedure) and then submit a pull request. I will review all PR's and check your region out for any issues and if it's good to go, then it'll be merged into this repository.
 
-To avoid any duplication of work, I highly recommend that you join the [Discord](https://discord.gg/xagN9ay3pB) or [Slack](https://join.slack.com/t/neohabitat/shared_invite/zt-29umovwqu-R7KT2d4qQ3HhwHDZ3TMNew) to see if anyone else is already working on that region or area.
+To avoid any duplication of work, I highly recommend that you join the [NeoHabitat Slack](https://join.slack.com/t/neohabitat/shared_invite/zt-29umovwqu-R7KT2d4qQ3HhwHDZ3TMNew) to see if anyone else is already working on that region or area.
 
 For more detailed information, see below.
 
