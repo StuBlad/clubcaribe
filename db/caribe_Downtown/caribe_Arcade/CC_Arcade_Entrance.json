@@ -321,7 +321,7 @@
         "y": 33,
         "x": 28,
         "open_flags": 2,
-        "connection": "context-Downtown_8g",
+        "connection": "context-CC_Caribe_Arcade",
         "style": 4,
         "gr_state": 0
       }
@@ -360,7 +360,7 @@
         "gr_state": 0,
         "orientation": 205,
         "open_flags": 2,
-        "connection": "context-Downtown_8g"
+        "connection": "context-CC_Caribe_Arcade"
       }
     ]
   },

@@ -1,0 +1,168 @@
+[
+  {
+    "ref": "context-CC_Checkers_3",
+    "capacity": 64,
+    "type": "context",
+    "name": "Checkers",
+    "mods": [
+      {
+        "town_dir": "",
+        "port_dir": "}",
+        "type": "Region",
+        "orientation": 1,
+        "neighbors": [
+          "",
+          "",
+          "context-CC_Checkers_Lobby",
+          ""
+        ],
+        "nitty_bits": 3,
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0,
+        "realm": "Caribe"
+      }
+    ]
+  },
+  {
+    "ref": "item-ground.d8j1.CC_Checkers_3",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 196,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_Checkers_3"
+  },
+  {
+    "ref": "item-wall.a9t4.CC_Checkers_3",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 4,
+        "type": "Wall",
+        "orientation": 252,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_Checkers_3"
+  },
+  {
+    "type": "item",
+    "ref": "Sign.gasc.CC_Checkers_3",
+    "name": "Sign",
+    "in": "context-CC_Checkers_3",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 16,
+        "y": 124,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          133,
+          131,
+          82,
+          101,
+          103,
+          105,
+          111,
+          110,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.spje.CC_Checkers_3",
+    "name": "Sign",
+    "in": "context-CC_Checkers_3",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 26,
+        "y": 53,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          67,
+          111,
+          110,
+          110,
+          101,
+          99,
+          116,
+          105,
+          111,
+          110,
+          115,
+          58,
+          32,
+          133,
+          131,
+          125
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.mplf.CC_Checkers_3",
+    "name": "Sign",
+    "in": "context-CC_Checkers_3",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 42,
+        "y": 94,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          133,
+          131,
+          67,
+          104,
+          101,
+          99,
+          107,
+          101,
+          114,
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.m3rc.CC_Checkers_3",
+    "name": "Plaque",
+    "in": "context-CC_Checkers_3",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 7,
+        "y": 42,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 16,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-caribewip"
+      }
+    ]
+  }
+]

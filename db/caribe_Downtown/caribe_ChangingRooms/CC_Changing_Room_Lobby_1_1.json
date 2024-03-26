@@ -1,0 +1,173 @@
+[
+  {
+    "ref": "context-CC_Changing_Room_Lobby_1_1",
+    "capacity": 64,
+    "type": "context",
+    "name": "Changing Room",
+    "mods": [
+      {
+        "town_dir": "",
+        "port_dir": "}",
+        "type": "Region",
+        "orientation": 3,
+        "neighbors": [
+          "context-CC_Changing_Lobby_2",
+          "",
+          "",
+          ""
+        ],
+        "nitty_bits": 3,
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0,
+        "realm": "Caribe"
+      }
+    ]
+  },
+  {
+    "ref": "item-ground.d8j1.CC_Changing_Room_Lobby_1_1",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 196,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_Changing_Room_Lobby_1_1"
+  },
+  {
+    "ref": "item-wall.a9t4.CC_Changing_Room_Lobby_1_1",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 4,
+        "type": "Wall",
+        "orientation": 252,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_Changing_Room_Lobby_1_1"
+  },
+  {
+    "type": "item",
+    "ref": "Sign.gasc.CC_Changing_Room_Lobby_1_1",
+    "name": "Sign",
+    "in": "context-CC_Changing_Room_Lobby_1_1",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 16,
+        "y": 124,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          133,
+          131,
+          82,
+          101,
+          103,
+          105,
+          111,
+          110,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.spje.CC_Changing_Room_Lobby_1_1",
+    "name": "Sign",
+    "in": "context-CC_Changing_Room_Lobby_1_1",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 26,
+        "y": 53,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          67,
+          111,
+          110,
+          110,
+          101,
+          99,
+          116,
+          105,
+          111,
+          110,
+          115,
+          58,
+          32,
+          133,
+          131,
+          125
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.mplf.CC_Changing_Room_Lobby_1_1",
+    "name": "Sign",
+    "in": "context-CC_Changing_Room_Lobby_1_1",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 42,
+        "y": 94,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          133,
+          131,
+          67,
+          104,
+          97,
+          110,
+          103,
+          105,
+          110,
+          103,
+          32,
+          82,
+          111,
+          111,
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.m3rc.CC_Changing_Room_Lobby_1_1",
+    "name": "Plaque",
+    "in": "context-CC_Changing_Room_Lobby_1_1",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 7,
+        "y": 42,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 16,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-caribewip"
+      }
+    ]
+  }
+]
