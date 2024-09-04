@@ -10,7 +10,7 @@ Whilst Habitat was breaking new ground, Q-Link decided to strip the more esoteri
 
 As far as we know, there are no database backups that exist of Club Caribe out there.
 
-We have a lot of screenshots as well as maps of Club Caribe and with that, I'd like to work on recreating that world by hand. If you would like to contribute, please join the [NeoHabitat Discord](https://discord.gg/nk7HwAGF) and feel free to submit a pull request.
+We have a lot of screenshots as well as maps of Club Caribe and with that, I'd like to work on recreating that world by hand. If you would like to contribute, please join the [NeoHabitat Discord](https://discord.gg/rspcX27Vt4) and feel free to submit a pull request.
 
 ## Do you have any Club Caribe related paraphenalia or archival material?
 If you have any of the following items, please get in touch with me via [e-mail](mailto:stuart@renoproject.org). It could help to make this restoration project even more accurate.
@@ -26,7 +26,7 @@ Using the tools and resources below, select a region from the [screenshot librar
 
 Stubs have been made for regions that we know exist and have a screenshot of. These allow you to not only move around the world unimpeded even if a region doesn't exist yet, but you can also use it as a template to build upon as it's already hooked up to the world map.
 
-To avoid any duplication of work, I highly recommend that you join the [NeoHabitat Discord](https://discord.gg/nk7HwAGF) to see if anyone else is already working on that region or area.
+To avoid any duplication of work, I highly recommend that you join the [NeoHabitat Discord](https://discord.gg/rspcX27Vt4) to see if anyone else is already working on that region or area.
 
 For more detailed information, see below.
 
