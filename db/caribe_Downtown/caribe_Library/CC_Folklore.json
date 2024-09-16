@@ -29,11 +29,11 @@
     "ref": "item-ground.d8j1.CC_Folklore",
     "mods": [
       {
-        "y": 4,
+        "y": 3,
         "x": 0,
         "style": 1,
         "type": "Ground",
-        "orientation": 196,
+        "orientation": 60,
         "gr_state": 0
       }
     ],
@@ -59,109 +59,118 @@
   },
   {
     "type": "item",
-    "ref": "Sign.gasc.CC_Folklore",
+    "ref": "Sign.t7me.context-CC_Folklore",
     "name": "Sign",
     "in": "context-CC_Folklore",
     "mods": [
       {
         "type": "Sign",
-        "x": 16,
-        "y": 124,
-        "style": 0,
-        "gr_state": 1,
-        "orientation": 0,
-        "ascii": [
-          133,
-          131,
-          82,
-          101,
-          103,
-          105,
-          111,
-          110,
-          58
-        ]
-      }
-    ]
-  },
-  {
-    "type": "item",
-    "ref": "Sign.spje.CC_Folklore",
-    "name": "Sign",
-    "in": "context-CC_Folklore",
-    "mods": [
-      {
-        "type": "Sign",
-        "x": 26,
-        "y": 53,
-        "style": 0,
-        "gr_state": 1,
-        "orientation": 0,
-        "ascii": [
-          67,
-          111,
-          110,
-          110,
-          101,
-          99,
-          116,
-          105,
-          111,
-          110,
-          115,
-          58,
-          32,
-          133,
-          131,
-          125
-        ]
-      }
-    ]
-  },
-  {
-    "type": "item",
-    "ref": "Sign.mplf.CC_Folklore",
-    "name": "Sign",
-    "in": "context-CC_Folklore",
-    "mods": [
-      {
-        "type": "Sign",
-        "x": 42,
-        "y": 94,
-        "style": 0,
-        "gr_state": 1,
-        "orientation": 0,
-        "ascii": [
-          133,
-          131,
-          70,
-          111,
-          108,
-          107,
-          108,
-          111,
-          114,
-          101
-        ]
-      }
-    ]
-  },
-  {
-    "type": "item",
-    "ref": "Plaque.m3rc.CC_Folklore",
-    "name": "Plaque",
-    "in": "context-CC_Folklore",
-    "mods": [
-      {
-        "type": "Plaque",
-        "x": 7,
-        "y": 42,
-        "style": 2,
+        "x": 6,
+        "y": 77,
+        "style": 1,
         "gr_state": 0,
-        "orientation": 16,
-        "last_page": 1,
-        "pages": [],
-        "path": "text-caribewip"
+        "orientation": 184,
+        "ascii": [
+          134,
+          128,
+          128,
+          83,
+          72,
+          72,
+          72,
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.avs0.context-CC_Folklore",
+    "name": "Sign",
+    "in": "context-CC_Folklore",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 33,
+        "y": 111,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          133,
+          73,
+          83,
+          76,
+          65,
+          78,
+          68,
+          32,
+          70,
+          79,
+          76,
+          75,
+          76,
+          79,
+          82,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Display_case.2m69.context-CC_Folklore",
+    "name": "Display_case",
+    "in": "context-CC_Folklore",
+    "mods": [
+      {
+        "type": "Display_case",
+        "x": 112,
+        "y": 28,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 160,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Display_case.76gz.context-CC_Folklore",
+    "name": "Display_case",
+    "in": "context-CC_Folklore",
+    "mods": [
+      {
+        "type": "Display_case",
+        "x": 68,
+        "y": 28,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 160,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Display_case.i7o9.context-CC_Folklore",
+    "name": "Display_case",
+    "in": "context-CC_Folklore",
+    "mods": [
+      {
+        "type": "Display_case",
+        "x": 24,
+        "y": 28,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 160,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3
       }
     ]
   }

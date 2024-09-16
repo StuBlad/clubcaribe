@@ -33,7 +33,7 @@
         "x": 0,
         "style": 1,
         "type": "Ground",
-        "orientation": 196,
+        "orientation": 204,
         "gr_state": 0
       }
     ],
@@ -49,7 +49,7 @@
         "x": 0,
         "style": 4,
         "type": "Wall",
-        "orientation": 252,
+        "orientation": 140,
         "gr_state": 0
       }
     ],
@@ -59,112 +59,508 @@
   },
   {
     "type": "item",
-    "ref": "Sign.gasc.CC_Art_Gallery",
+    "ref": "Sign.p8wo.context-CC_Art_Gallery",
     "name": "Sign",
     "in": "context-CC_Art_Gallery",
     "mods": [
       {
         "type": "Sign",
-        "x": 16,
-        "y": 124,
+        "x": 14,
+        "y": 125,
         "style": 0,
         "gr_state": 1,
         "orientation": 0,
         "ascii": [
-          133,
-          131,
-          82,
-          101,
+          79,
+          114,
+          105,
           103,
           105,
-          111,
           110,
-          58
-        ]
-      }
-    ]
-  },
-  {
-    "type": "item",
-    "ref": "Sign.spje.CC_Art_Gallery",
-    "name": "Sign",
-    "in": "context-CC_Art_Gallery",
-    "mods": [
-      {
-        "type": "Sign",
-        "x": 26,
-        "y": 53,
-        "style": 0,
-        "gr_state": 1,
-        "orientation": 0,
-        "ascii": [
-          67,
-          111,
-          110,
-          110,
-          101,
-          99,
-          116,
-          105,
-          111,
-          110,
-          115,
-          58,
+          97,
+          108,
           32,
-          133,
-          131,
-          127
-        ]
-      }
-    ]
-  },
-  {
-    "type": "item",
-    "ref": "Sign.mplf.CC_Art_Gallery",
-    "name": "Sign",
-    "in": "context-CC_Art_Gallery",
-    "mods": [
-      {
-        "type": "Sign",
-        "x": 42,
-        "y": 94,
-        "style": 0,
-        "gr_state": 1,
-        "orientation": 0,
-        "ascii": [
-          133,
-          131,
           65,
           114,
           116,
+          119,
+          111,
+          114,
+          107,
+          32,
+          98,
+          121,
+          32,
+          67,
+          97,
+          114,
+          105,
+          98,
+          101,
           32,
           71,
-          97,
-          108,
-          108,
+          117,
           101,
-          114,
-          121
+          115,
+          116,
+          115
         ]
       }
     ]
   },
   {
     "type": "item",
-    "ref": "Plaque.m3rc.CC_Art_Gallery",
+    "ref": "Plaque.jfwf.context-CC_Art_Gallery",
     "name": "Plaque",
     "in": "context-CC_Art_Gallery",
     "mods": [
       {
         "type": "Plaque",
-        "x": 7,
-        "y": 42,
+        "x": 6,
+        "y": 99,
         "style": 2,
         "gr_state": 0,
-        "orientation": 16,
+        "orientation": 0,
         "last_page": 1,
         "pages": [],
-        "path": "text-caribewip"
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.y680.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 26,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 32,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.idw5.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 46,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 0,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.f2dt.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 66,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 48,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.s59w.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 86,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 64,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.1od0.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 106,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 88,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.tf2d.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 126,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 96,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.i0l5.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 146,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 72,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.ke3o.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 6,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 96,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.6w4r.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 26,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 24,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.rbag.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 46,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 112,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.gzyr.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 66,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 80,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.i14r.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 86,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 40,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.hltb.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 106,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 0,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.a9vd.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 126,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 96,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.u16d.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 146,
+        "y": 74,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 24,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.kgll.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 4,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 24,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.m131.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 24,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 72,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.njnc.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 44,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 48,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.596s.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 64,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 88,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.728d.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 84,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 40,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.f8s8.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 104,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 72,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.46ap.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 124,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 32,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.1jc3.context-CC_Art_Gallery",
+    "name": "Plaque",
+    "in": "context-CC_Art_Gallery",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 144,
+        "y": 49,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 24,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
       }
     ]
   }
