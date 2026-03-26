@@ -3,7 +3,7 @@
     "ref": "context-CC_ShopsPorter", 
     "capacity": 64, 
     "type": "context", 
-    "name": "Shops Teleport", 
+    "name": "General Store", 
     "mods": [
       {
         "town_dir": "", 
@@ -153,7 +153,7 @@
       {
         "y": 136, 
         "x": 128, 
-        "address": "shops",
+        "address": "atm",
         "type": "Teleport", 
         "orientation": 240
       }
