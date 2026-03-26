@@ -15,7 +15,8 @@
           "context-CC_KellysExt",
           "context-CC_GenStoreExt",
           ""
-        ], 
+        ],
+        "realm": "Caribe",		
         "nitty_bits": 3
       }
     ]

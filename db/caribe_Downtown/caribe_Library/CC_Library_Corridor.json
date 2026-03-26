@@ -13,6 +13,7 @@
           "",
           "context-CC_Library_Lobby"
         ],
+		"realm": "Caribe",
         "orientation": 2,
         "depth": 28,
         "nitty_bits": 3,
@@ -21,8 +22,7 @@
         "x": 0,
         "y": 0,
         "style": 0,
-        "gr_state": 0,
-        "realm": "Caribe"
+        "gr_state": 0
       }
     ]
   },

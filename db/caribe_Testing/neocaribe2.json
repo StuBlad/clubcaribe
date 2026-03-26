@@ -16,7 +16,8 @@
           "", 
           "context-neocaribe",
           ""
-        ], 
+        ],
+        "realm": "Caribe",		
         "nitty_bits": 3
       }
     ]
