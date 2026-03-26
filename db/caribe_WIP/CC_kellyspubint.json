@@ -1,0 +1,282 @@
+[
+  {
+    "ref": "context-kellyspubint",
+    "capacity": 64,
+    "type": "context",
+    "name": "Kelly's Pub",
+    "mods": [
+      {
+        "town_dir": "",
+        "port_dir": "}",
+        "type": "Region",
+        "orientation": 2,
+        "neighbors": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "nitty_bits": 3,
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-ground.d8j1.kellyspubint",
+    "mods": [
+      {
+        "y": 3,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 172,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-kellyspubint"
+  },
+  {
+    "ref": "item-wall.a9t4.kellyspubint",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 4,
+        "type": "Wall",
+        "orientation": 12,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-kellyspubint"
+  },
+  {
+    "type": "item",
+    "ref": "Super_trapezoid.v377.kellyspubint",
+    "name": "Super_trapezoid",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Super_trapezoid",
+        "x": 160,
+        "y": 32,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 168,
+        "pattern": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          64,
+          0,
+          0,
+          5,
+          64,
+          0,
+          0,
+          65,
+          4,
+          0,
+          0,
+          65,
+          4,
+          0,
+          0,
+          85,
+          84,
+          0,
+          0,
+          65,
+          4,
+          0,
+          0,
+          65,
+          4,
+          0,
+          0
+        ],
+        "pattern_x_size": 3,
+        "pattern_y_size": 7,
+        "height": 127,
+        "upper_left_x": 96,
+        "upper_right_x": 256,
+        "lower_left_x": 96,
+        "lower_right_x": 0,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Table.lutf.context-kellyspubint",
+    "name": "Table",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Table",
+        "x": 84,
+        "y": 150,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 112,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Table.k18w.context-kellyspubint",
+    "name": "Table",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Table",
+        "x": 128,
+        "y": 150,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 112,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Display_case.jn06.context-kellyspubint",
+    "name": "Display_case",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Display_case",
+        "x": 92,
+        "y": 68,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 200,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Door.l4aq.context-kellyspubint",
+    "name": "Door",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Door",
+        "x": 60,
+        "y": 159,
+        "style": 6,
+        "gr_state": 0,
+        "orientation": 0,
+        "key_hi": 0,
+        "key_lo": 0,
+        "connection": "",
+        "open_flags": 2
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Chair.0yc8.context-kellyspubint",
+    "name": "Chair",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Chair",
+        "x": 128,
+        "y": 132,
+        "style": 3,
+        "gr_state": 0,
+        "orientation": 80,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Chair.hscq.context-kellyspubint",
+    "name": "Chair",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Chair",
+        "x": 95,
+        "y": 129,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 81,
+        "open_flags": 3
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.ytwh.context-kellyspubint",
+    "name": "Plaque",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 12,
+        "y": 89,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 48,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Fortune_machine.ojze.context-kellyspubint",
+    "name": "Fortune_machine",
+    "in": "context-kellyspubint",
+    "mods": [
+      {
+        "type": "Fortune_machine",
+        "x": 12,
+        "y": 153,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Book.9c84.context-kellyspubint",
+    "name": "Book",
+    "in": "Display_case.jn06.context-kellyspubint",
+    "mods": [
+      {
+        "type": "Book",
+        "x": 0,
+        "y": 0,
+        "style": 3,
+        "gr_state": 0,
+        "orientation": 16,
+        "last_page": 2,
+        "path": "text-weeklyrant.1",
+        "title": "Weekly Rant, Commemorative First Issue"
+      }
+    ]
+  }
+]

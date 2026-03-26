@@ -1,0 +1,297 @@
+[
+  {
+    "ref": "context-CC_welcomebookstore",
+    "capacity": 64,
+    "type": "context",
+    "name": "Welcome--Bookstore",
+    "mods": [
+      {
+        "town_dir": "",
+        "neighbors": [
+          "context-Downtown_3d",
+          "",
+          "context-Downtown_1972",
+          "context-Downtown_9241"
+        ],
+        "realm": "Downtown",
+        "orientation": 0,
+        "nitty_bits": 3,
+        "port_dir": "~",
+        "type": "Region",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-Ground.d8k3.CC_welcomebookstore",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 228,
+        "gr_state": 0,
+        "y": 4,
+        "x": 0,
+        "type": "Ground"
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_welcomebookstore"
+  },
+  {
+    "ref": "item-Door.y2h2.CC_welcomebookstore",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 4,
+        "key_hi": 152,
+        "key_lo": 8,
+        "connection": "context-Downtown_9241",
+        "gr_state": 1,
+        "y": 31,
+        "x": 48,
+        "type": "Door",
+        "open_flags": 2
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_welcomebookstore"
+  },
+  {
+    "ref": "item-Wall.d8j2.CC_welcomebookstore",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 136,
+        "gr_state": 0,
+        "y": 0,
+        "x": 3,
+        "type": "Wall"
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_welcomebookstore"
+  },
+  {
+    "ref": "item-Window1.d9k2.CC_welcomebookstore",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 136,
+        "gr_state": 2,
+        "y": 103,
+        "x": 52,
+        "type": "Window"
+      }
+    ],
+    "type": "item",
+    "name": "Window",
+    "in": "context-CC_welcomebookstore"
+  },
+  {
+    "ref": "item-Window5.g2h3.CC_welcomebookstore",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 72,
+        "gr_state": 1,
+        "y": 66,
+        "x": 136,
+        "type": "Window"
+      }
+    ],
+    "type": "item",
+    "name": "Window",
+    "in": "context-CC_welcomebookstore"
+  },
+  {
+    "ref": "item-Window6.y2m1.CC_welcomebookstore",
+    "mods": [
+      {
+        "style": 1,
+        "orientation": 72,
+        "gr_state": 1,
+        "y": 66,
+        "x": 92,
+        "type": "Window"
+      }
+    ],
+    "type": "item",
+    "name": "Window",
+    "in": "context-CC_welcomebookstore"
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.z3uv.CC_welcomebookstore",
+    "name": "Trapezoid",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 156,
+        "y": 30,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 105,
+        "height": 31,
+        "upper_left_x": 0,
+        "upper_right_x": 160,
+        "lower_left_x": 0,
+        "lower_right_x": 160,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Pond.3co2.CC_welcomebookstore",
+    "name": "Pond",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Pond",
+        "x": 42,
+        "y": 21,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 104
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.9wtw.CC_welcomebookstore",
+    "name": "Trapezoid",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 116,
+        "y": 159,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 0,
+        "height": 25,
+        "upper_left_x": 1,
+        "upper_right_x": 19,
+        "lower_left_x": 5,
+        "lower_right_x": 15,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Tree.pr31.context-CC_welcomebookstore",
+    "name": "Tree",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Tree",
+        "x": 116,
+        "y": 49,
+        "style": 11,
+        "gr_state": 1,
+        "orientation": 16
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Tree.9tk8.context-CC_welcomebookstore",
+    "name": "Tree",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Tree",
+        "x": 108,
+        "y": 47,
+        "style": 11,
+        "gr_state": 1,
+        "orientation": 33
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.4u48.context-CC_welcomebookstore",
+    "name": "Sign",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 92,
+        "y": 109,
+        "style": 4,
+        "gr_state": 2,
+        "orientation": 0,
+        "ascii": [
+          128,
+          68,
+          97,
+          115,
+          32,
+          66,
+          111,
+          111,
+          107,
+          115,
+          107,
+          101,
+          108,
+          108,
+          97,
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Streetlamp.7kox.context-CC_welcomebookstore",
+    "name": "Streetlamp",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Streetlamp",
+        "x": 4,
+        "y": 143,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 136
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Short_sign.vkcf.context-CC_welcomebookstore",
+    "name": "Short_sign",
+    "in": "context-CC_welcomebookstore",
+    "mods": [
+      {
+        "type": "Short_sign",
+        "x": 21,
+        "y": 70,
+        "style": 0,
+        "gr_state": 4,
+        "orientation": 0,
+        "ascii": [
+          67,
+          104,
+          101,
+          99,
+          107,
+          134,
+          32,
+          77,
+          101
+        ]
+      }
+    ]
+  }
+]

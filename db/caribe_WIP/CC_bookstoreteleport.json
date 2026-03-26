@@ -1,0 +1,451 @@
+[
+  {
+    "ref": "context-CC_bookstoreteleport",
+    "capacity": 64,
+    "type": "context",
+    "name": "Bookstore Teleport",
+    "mods": [
+      {
+        "town_dir": "",
+        "port_dir": "",
+        "type": "Region",
+        "orientation": 3,
+        "neighbors": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "nitty_bits": 3,
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-wall.a9t4.CC_bookstoreteleport",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 4,
+        "type": "Wall",
+        "orientation": 4,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_bookstoreteleport"
+  },
+  {
+    "type": "item",
+    "ref": "Tree.alcj.CC_bookstoreteleport",
+    "name": "Tree",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Tree",
+        "x": 28,
+        "y": 160,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 168
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Building.ojxj.CC_bookstoreteleport",
+    "name": "Building",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Building",
+        "x": 56,
+        "y": 63,
+        "style": 0,
+        "gr_state": 2,
+        "orientation": 136,
+        "connection": ""
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Teleport.4nii.CC_bookstoreteleport",
+    "name": "Teleport",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Teleport",
+        "x": 128,
+        "y": 134,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 0,
+        "address": "Pop-bookstore",
+        "take": 310,
+        "activeState": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.iifc.CC_bookstoreteleport",
+    "name": "Plaque",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 128,
+        "y": 128,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 0,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.kqrx.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 81,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 104,
+        "height": 31,
+        "upper_left_x": 235,
+        "upper_right_x": 83,
+        "lower_left_x": 235,
+        "lower_right_x": 84,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.t8cw.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 6,
+        "y": 3,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 168,
+        "height": 51,
+        "upper_left_x": 252,
+        "upper_right_x": 57,
+        "lower_left_x": 252,
+        "lower_right_x": 34,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.ezvf.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 104,
+        "height": 3,
+        "upper_left_x": 0,
+        "upper_right_x": 58,
+        "lower_left_x": 0,
+        "lower_right_x": 58,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.ip27.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 76,
+        "y": 31,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 168,
+        "height": 23,
+        "upper_left_x": 255,
+        "upper_right_x": 84,
+        "lower_left_x": 4,
+        "lower_right_x": 83,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.uqbi.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 53,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 104,
+        "height": 59,
+        "upper_left_x": 12,
+        "upper_right_x": 23,
+        "lower_left_x": 242,
+        "lower_right_x": 33,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.7f9j.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 3,
+        "y": 182,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 224,
+        "height": 9,
+        "upper_left_x": 0,
+        "upper_right_x": 64,
+        "lower_left_x": 0,
+        "lower_right_x": 62,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.6ke9.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 63,
+        "y": 59,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 224,
+        "height": 5,
+        "upper_left_x": 0,
+        "upper_right_x": 16,
+        "lower_left_x": 0,
+        "lower_right_x": 16,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.w59c.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 103,
+        "y": 182,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 224,
+        "height": 9,
+        "upper_left_x": 229,
+        "upper_right_x": 60,
+        "lower_left_x": 231,
+        "lower_right_x": 60,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Building.qjsl.context-CC_bookstoreteleport",
+    "name": "Building",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Building",
+        "x": 60,
+        "y": 189,
+        "style": 0,
+        "gr_state": 8,
+        "orientation": 136,
+        "connection": ""
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Building.rb0k.context-CC_bookstoreteleport",
+    "name": "Building",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Building",
+        "x": 80,
+        "y": 70,
+        "style": 0,
+        "gr_state": 4,
+        "orientation": 136,
+        "connection": ""
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.pc1p.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 84,
+        "y": 213,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 0,
+        "height": 2,
+        "upper_left_x": 0,
+        "upper_right_x": 10,
+        "lower_left_x": 0,
+        "lower_right_x": 10,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.r6wu.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 48,
+        "y": 209,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 8,
+        "height": 2,
+        "upper_left_x": 0,
+        "upper_right_x": 10,
+        "lower_left_x": 0,
+        "lower_right_x": 10,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.k6nk.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 44,
+        "y": 184,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 8,
+        "height": 27,
+        "upper_left_x": 8,
+        "upper_right_x": 9,
+        "lower_left_x": 8,
+        "lower_right_x": 9,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.3j8b.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 80,
+        "y": 190,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 104,
+        "height": 5,
+        "upper_left_x": 0,
+        "upper_right_x": 24,
+        "lower_left_x": 0,
+        "lower_right_x": 24,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Building.qg5t.context-CC_bookstoreteleport",
+    "name": "Building",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Building",
+        "x": 82,
+        "y": 103,
+        "style": 0,
+        "gr_state": 9,
+        "orientation": 136,
+        "connection": ""
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.f6qx.context-CC_bookstoreteleport",
+    "name": "Trapezoid",
+    "in": "context-CC_bookstoreteleport",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 56,
+        "y": 190,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 104,
+        "height": 5,
+        "upper_left_x": 0,
+        "upper_right_x": 4,
+        "lower_left_x": 0,
+        "lower_right_x": 4,
+        "trapezoid_type": 0
+      }
+    ]
+  }
+]

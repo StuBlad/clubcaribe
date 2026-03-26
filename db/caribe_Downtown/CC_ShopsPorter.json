@@ -1,165 +1,332 @@
 [
   {
-    "ref": "context-CC_ShopsPorter", 
-    "capacity": 64, 
-    "type": "context", 
-    "name": "General Store", 
+    "ref": "context-CC_ShopsPorter",
+    "capacity": 64,
+    "type": "context",
+    "name": "General Store",
     "mods": [
       {
-        "town_dir": "", 
-        "port_dir": "", 
+        "town_dir": "",
+        "port_dir": "",
         "type": "Region",
-        "orientation": 2,         
+        "orientation": 2,
         "neighbors": [
           "context-CC_GenStoreExt",
           "",
           "",
           "context-neocaribe"
-        ], 
-        "nitty_bits": 3
+        ],
+        "nitty_bits": 3,
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
       }
     ]
-  }, 
+  },
   {
-    "ref": "item-wall.s8v5.CC_ShopsPorter", 
+    "ref": "item-wall.s8v5.CC_ShopsPorter",
     "mods": [
       {
-        "y": 0, 
-        "x": 0, 
-        "style": 5, 
-        "type": "Wall", 
-        "orientation": 0
+        "y": 0,
+        "x": 0,
+        "style": 5,
+        "type": "Wall",
+        "orientation": 0,
+        "gr_state": 0
       }
-    ], 
-    "type": "item", 
-    "name": "Wall", 
+    ],
+    "type": "item",
+    "name": "Wall",
     "in": "context-CC_ShopsPorter"
-  }, 
+  },
   {
-    "ref": "item-ground.c1m4.CC_ShopsPorter", 
+    "ref": "item-ground.c1m4.CC_ShopsPorter",
     "mods": [
       {
-        "y": 4, 
-        "x": 0, 
-        "style": 1, 
-        "type": "Ground", 
-        "orientation": 216
+        "y": 3,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 216,
+        "gr_state": 0
       }
-    ], 
-    "type": "item", 
-    "name": "Ground", 
+    ],
+    "type": "item",
+    "name": "Ground",
     "in": "context-CC_ShopsPorter"
-  },  
+  },
   {
-    "ref": "item-street1.j3d1.CC_ShopsPorter", 
+    "ref": "item-sign.g2h2.CC_ShopsPorter",
     "mods": [
       {
-        "orientation": 104, 
-        "type": "Street", 
-        "gr_state": 7, 
-        "y": 10, 
-        "x": 68
-      }
-    ], 
-    "type": "item", 
-    "name": "Street", 
-    "in": "context-CC_ShopsPorter"
-  },    
-  {
-    "ref": "item-sign.g2h2.CC_ShopsPorter", 
-    "mods": [
-      {
-        "style": 6, 
-        "orientation": 232, 
+        "style": 6,
+        "orientation": 232,
         "ascii": [
-		  133,
+          133,
           126,
-		  83,
-		  104,
-		  111,
-		  112,
-		  115,
-		  134,
-		  139,
-		  133,
-		  32,
-		  32,
-		  128,
-		  84,
-		  104,
-		  101,
-		  97,
-		  116,
-		  101,
-		  114,
-		  134,
-		  139,
-		  128,
-		  66,
-		  97,
-		  114,
-		  32,
-		  38,
-		  32,
-		  71,
-		  114,
-		  105,
-		  108,
-		  108
-        ], 
-        "gr_state": 2, 
-        "y": 71, 
-        "x": 70, 
+          83,
+          72,
+          79,
+          80,
+          83
+        ],
+        "gr_state": 3,
+        "y": 50,
+        "x": 66,
         "type": "Sign"
       }
-    ], 
-    "type": "item", 
-    "name": "Sign", 
+    ],
+    "type": "item",
+    "name": "Sign",
     "in": "context-CC_ShopsPorter"
   },
   {
-    "ref": "item-atm1.v8s6.CC_ShopsPorter", 
+    "ref": "item-atm1.v8s6.CC_ShopsPorter",
     "mods": [
       {
-        "y": 50, 
-        "x": 8, 
-        "type": "Atm", 
-        "orientation": 0, 
-        "gr_state": 1
+        "y": 49,
+        "x": 8,
+        "type": "Atm",
+        "orientation": 0,
+        "gr_state": 1,
+        "style": 0
       }
-    ], 
-    "type": "item", 
-    "name": "Atm", 
+    ],
+    "type": "item",
+    "name": "Atm",
     "in": "context-CC_ShopsPorter"
   },
   {
-    "ref": "item-atm2.l2m4.CC_ShopsPorter", 
+    "ref": "item-atm2.l2m4.CC_ShopsPorter",
     "mods": [
       {
-        "y": 50, 
-        "x": 36, 
-        "type": "Atm", 
-        "orientation": 0, 
-        "gr_state": 1
+        "y": 49,
+        "x": 36,
+        "type": "Atm",
+        "orientation": 0,
+        "gr_state": 1,
+        "style": 0
       }
-    ], 
-    "type": "item", 
-    "name": "Atm", 
+    ],
+    "type": "item",
+    "name": "Atm",
     "in": "context-CC_ShopsPorter"
   },
   {
-    "ref": "item-teleport.b7m2.CC_ShopsPorter", 
+    "ref": "item-teleport.b7m2.CC_ShopsPorter",
     "mods": [
       {
-        "y": 136, 
-        "x": 128, 
+        "y": 136,
+        "x": 128,
         "address": "atm",
-        "type": "Teleport", 
-        "orientation": 240
+        "type": "Teleport",
+        "orientation": 240,
+        "style": 0,
+        "gr_state": 0
       }
-    ], 
-    "type": "item", 
-    "name": "Teleport", 
+    ],
+    "type": "item",
+    "name": "Teleport",
     "in": "context-CC_ShopsPorter"
+  },
+  {
+    "type": "item",
+    "ref": "Sign.vpyp.context-CC_ShopsPorter",
+    "name": "Sign",
+    "in": "context-CC_ShopsPorter",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 70,
+        "y": 70,
+        "style": 6,
+        "gr_state": 4,
+        "orientation": 232,
+        "ascii": [
+          128,
+          75,
+          101,
+          108,
+          108,
+          121,
+          39,
+          115,
+          32,
+          80,
+          117,
+          98,
+          134,
+          32,
+          67,
+          67,
+          32,
+          84,
+          104,
+          101,
+          97,
+          116,
+          114,
+          101,
+          134,
+          128,
+          76,
+          97,
+          32,
+          86,
+          111,
+          117,
+          115,
+          32,
+          78,
+          101,
+          119
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.m0j6.context-CC_ShopsPorter",
+    "name": "Plaque",
+    "in": "context-CC_ShopsPorter",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 4,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 64,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.tcuq.context-CC_ShopsPorter",
+    "name": "Plaque",
+    "in": "context-CC_ShopsPorter",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 128,
+        "y": 135,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 160,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.f0ou.context-CC_ShopsPorter",
+    "name": "Sign",
+    "in": "context-CC_ShopsPorter",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 28,
+        "y": 106,
+        "style": 4,
+        "gr_state": 2,
+        "orientation": 160,
+        "ascii": [
+          32,
+          67,
+          67,
+          32,
+          67,
+          104,
+          97,
+          110,
+          103,
+          105,
+          110,
+          103,
+          32,
+          82,
+          111,
+          111,
+          109,
+          115,
+          32,
+          133,
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Street.1w1i.context-CC_ShopsPorter",
+    "name": "Street",
+    "in": "context-CC_ShopsPorter",
+    "mods": [
+      {
+        "type": "Street",
+        "x": 136,
+        "y": 9,
+        "style": 0,
+        "gr_state": 6,
+        "orientation": 105,
+        "height": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.mui5.context-CC_ShopsPorter",
+    "name": "Trapezoid",
+    "in": "context-CC_ShopsPorter",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 76,
+        "y": 128,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 104,
+        "height": 11,
+        "upper_left_x": 253,
+        "upper_right_x": 15,
+        "lower_left_x": 250,
+        "lower_right_x": 17,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Short_sign.jsrs.context-CC_ShopsPorter",
+    "name": "Short_sign",
+    "in": "context-CC_ShopsPorter",
+    "mods": [
+      {
+        "type": "Short_sign",
+        "x": 128,
+        "y": 53,
+        "style": 0,
+        "gr_state": 4,
+        "orientation": 0,
+        "ascii": [
+          67,
+          104,
+          101,
+          99,
+          107,
+          134,
+          32,
+          77,
+          101
+        ]
+      }
+    ]
   }
 ]

@@ -1,0 +1,696 @@
+[
+  {
+    "capacity": 64,
+    "mods": [
+      {
+        "town_dir": "}",
+        "neighbors": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "realm": "",
+        "orientation": 2,
+        "nitty_bits": 3,
+        "port_dir": "|",
+        "depth": 25,
+        "type": "Region",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "ref": "context-CC_thecaribeexchange_ext",
+    "name": "The Caribe Exchange",
+    "type": "context"
+  },
+  {
+    "type": "item",
+    "mods": [
+      {
+        "y": 1,
+        "x": 0,
+        "style": 4,
+        "type": "Wall",
+        "orientation": 252,
+        "gr_state": 0
+      }
+    ],
+    "ref": "item-wall.CC_thecaribeexchange_ext",
+    "name": "Wall",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-ground.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "y": 2,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 108,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-door.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 0,
+        "connection": "context-Popustop.lobby.line3",
+        "y": 32,
+        "x": 60,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 1
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-trap1.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "lower_right_x": 160,
+        "upper_left_x": 0,
+        "upper_right_x": 160,
+        "lower_left_x": 0,
+        "trapezoid_type": 2,
+        "y": 17,
+        "x": 1,
+        "height": 14,
+        "type": "Trapezoid",
+        "orientation": 168,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-sign1.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 12,
+        "gr_state": 3,
+        "y": 111,
+        "x": 42,
+        "ascii": [
+          32,
+          84,
+          104,
+          101,
+          32,
+          67,
+          97,
+          114,
+          105,
+          98,
+          101,
+          32,
+          69,
+          120,
+          99,
+          104,
+          97,
+          110,
+          103,
+          101
+        ],
+        "type": "Sign"
+      }
+    ],
+    "type": "item",
+    "name": "Sign",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-trap2.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "lower_right_x": 19,
+        "upper_left_x": 0,
+        "upper_right_x": 19,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 152,
+        "x": 24,
+        "height": 144,
+        "type": "Trapezoid",
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-supertrap1.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "pattern_x_size": 0,
+        "lower_right_x": 12,
+        "upper_left_x": 0,
+        "pattern": [
+          68,
+          68,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_right_x": 12,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 40,
+        "x": 28,
+        "height": 88,
+        "type": "Super_trapezoid",
+        "pattern_y_size": 0,
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Super Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-supertrap2.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "pattern_x_size": 0,
+        "lower_right_x": 12,
+        "upper_left_x": 0,
+        "pattern": [
+          68,
+          68,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_right_x": 12,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 40,
+        "x": 132,
+        "height": 88,
+        "type": "Super_trapezoid",
+        "pattern_y_size": 0,
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Super Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-trap3.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "lower_right_x": 19,
+        "upper_left_x": 0,
+        "upper_right_x": 19,
+        "lower_left_x": 0,
+        "trapezoid_type": 3,
+        "y": 152,
+        "x": 128,
+        "height": 144,
+        "type": "Trapezoid",
+        "orientation": 140,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "ref": "item-door2.CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "style": 4,
+        "orientation": 1,
+        "connection": "context-Popustop.lobby.line3",
+        "y": 32,
+        "x": 100,
+        "type": "Door",
+        "open_flags": 2,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_thecaribeexchange_ext"
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.9pm1.CC_thecaribeexchange_ext",
+    "name": "Plaque",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 148,
+        "y": 99,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 0,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Teleport.cgu1.CC_thecaribeexchange_ext",
+    "name": "Teleport",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Teleport",
+        "x": 4,
+        "y": 129,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 0,
+        "address": "Pop-exchange",
+        "take": 310,
+        "activeState": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Tree.mbfx.CC_thecaribeexchange_ext",
+    "name": "Tree",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Tree",
+        "x": 8,
+        "y": 31,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 64
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.f6oa.CC_thecaribeexchange_ext",
+    "name": "Plaque",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 9,
+        "y": 128,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 0,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.x24a.CC_thecaribeexchange_ext",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 41,
+        "y": 152,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 136,
+        "height": 9,
+        "upper_left_x": 244,
+        "upper_right_x": 106,
+        "lower_left_x": 244,
+        "lower_right_x": 106,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.wf1x.CC_thecaribeexchange_ext",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 49,
+        "y": 144,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 136,
+        "height": 7,
+        "upper_left_x": 0,
+        "upper_right_x": 76,
+        "lower_left_x": 0,
+        "lower_right_x": 76,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.x74s.CC_thecaribeexchange_ext",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 43,
+        "y": 135,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 136,
+        "height": 8,
+        "upper_left_x": 0,
+        "upper_right_x": 91,
+        "lower_left_x": 0,
+        "lower_right_x": 91,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Super_trapezoid.yti7.CC_thecaribeexchange_ext",
+    "name": "Super_trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Super_trapezoid",
+        "x": 28,
+        "y": 40,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 0,
+        "pattern": [
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0
+        ],
+        "pattern_x_size": 0,
+        "pattern_y_size": 0,
+        "height": 90,
+        "upper_left_x": 0,
+        "upper_right_x": 12,
+        "lower_left_x": 0,
+        "lower_right_x": 12,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Super_trapezoid.6zvm.CC_thecaribeexchange_ext",
+    "name": "Super_trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Super_trapezoid",
+        "x": 132,
+        "y": 40,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 0,
+        "pattern": [
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0,
+          17,
+          17,
+          16,
+          0
+        ],
+        "pattern_x_size": 0,
+        "pattern_y_size": 0,
+        "height": 90,
+        "upper_left_x": 0,
+        "upper_right_x": 11,
+        "lower_left_x": 0,
+        "lower_right_x": 11,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.70vn.CC_thecaribeexchange_ext",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 44,
+        "y": 143,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 8,
+        "height": 2,
+        "upper_left_x": 4,
+        "upper_right_x": 80,
+        "lower_left_x": 4,
+        "lower_right_x": 80,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.9omm.CC_thecaribeexchange_ext",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 40,
+        "y": 151,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 8,
+        "height": 2,
+        "upper_left_x": 16,
+        "upper_right_x": 76,
+        "lower_left_x": 16,
+        "lower_right_x": 76,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.j9oo.CC_thecaribeexchange_ext",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 232,
+        "y": 17,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 136,
+        "lower_right_x": 148,
+        "upper_left_x": 72,
+        "upper_right_x": 148,
+        "lower_left_x": 72,
+        "trapezoid_type": 2,
+        "height": 8
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Trapezoid.vui0.CC_thecaribeexchange_ext",
+    "name": "Trapezoid",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Trapezoid",
+        "x": 127,
+        "y": 17,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 8,
+        "height": 10,
+        "upper_left_x": 1,
+        "upper_right_x": 1,
+        "lower_left_x": 1,
+        "lower_right_x": 1,
+        "trapezoid_type": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Bush.t1yu.CC_thecaribeexchange_ext",
+    "name": "Bush",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Bush",
+        "x": 140,
+        "y": 150,
+        "style": 1,
+        "gr_state": 0,
+        "orientation": 32
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Box.qtym.CC_thecaribeexchange_ext",
+    "name": "Box",
+    "in": "context-CC_thecaribeexchange_ext",
+    "mods": [
+      {
+        "type": "Box",
+        "x": 140,
+        "y": 147,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 112,
+        "key_hi": 0,
+        "key_lo": 0,
+        "open_flags": 3,
+        "height": 0
+      }
+    ]
+  }
+]

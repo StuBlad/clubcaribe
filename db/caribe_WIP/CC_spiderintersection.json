@@ -1,0 +1,249 @@
+[
+  {
+    "ref": "context-CC_spiderintersection",
+    "capacity": 64,
+    "type": "context",
+    "name": "Spider Intersection",
+    "mods": [
+      {
+        "town_dir": "",
+        "neighbors": [
+          "context-Woods_bs",
+          "context-Woods_cr",
+          "context-Woods_bq",
+          "context-Woods_ar"
+        ],
+        "realm": "Woods",
+        "orientation": 0,
+        "nitty_bits": 3,
+        "port_dir": "",
+        "type": "Region",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ]
+  },
+  {
+    "ref": "item-ground.bc95.CC_spiderintersection",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "type": "Ground",
+        "orientation": 204,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "ref": "item-sky.354c.CC_spiderintersection",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 4,
+        "type": "Sky",
+        "orientation": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Sky",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "ref": "item-street.f63d.CC_spiderintersection",
+    "mods": [
+      {
+        "orientation": 80,
+        "height": 0,
+        "width": 0,
+        "y": 12,
+        "x": 68,
+        "type": "Street",
+        "style": 0,
+        "gr_state": 11
+      }
+    ],
+    "type": "item",
+    "name": "Street",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "ref": "item-tree.6de4.CC_spiderintersection",
+    "mods": [
+      {
+        "y": 35,
+        "x": 16,
+        "type": "Tree",
+        "orientation": 20,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "ref": "item-tree.b828.CC_spiderintersection",
+    "mods": [
+      {
+        "y": 174,
+        "x": 92,
+        "style": 1,
+        "type": "Tree",
+        "orientation": 168,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "ref": "item-tree.67e2.CC_spiderintersection",
+    "mods": [
+      {
+        "y": 32,
+        "x": 136,
+        "style": 0,
+        "type": "Tree",
+        "orientation": 64,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "ref": "item-tree.c3d2.CC_spiderintersection",
+    "mods": [
+      {
+        "y": 131,
+        "x": 0,
+        "style": 1,
+        "type": "Tree",
+        "orientation": 80,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "ref": "item-tree.a51b.CC_spiderintersection",
+    "mods": [
+      {
+        "y": 71,
+        "x": 10,
+        "type": "Tree",
+        "orientation": 21,
+        "gr_state": 3,
+        "style": 0
+      }
+    ],
+    "type": "item",
+    "name": "Tree",
+    "in": "context-CC_spiderintersection"
+  },
+  {
+    "type": "item",
+    "ref": "Teleport.0w3i.CC_spiderintersection",
+    "name": "Teleport",
+    "in": "context-CC_spiderintersection",
+    "mods": [
+      {
+        "type": "Teleport",
+        "x": 112,
+        "y": 144,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 232,
+        "address": "Pop-spiders",
+        "take": 310,
+        "activeState": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.4dpt.CC_spiderintersection",
+    "name": "Sign",
+    "in": "context-CC_spiderintersection",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 24,
+        "y": 168,
+        "style": 6,
+        "gr_state": 1,
+        "orientation": 8,
+        "ascii": [
+          78,
+          101,
+          119,
+          98,
+          105,
+          101,
+          115,
+          133,
+          124,
+          133,
+          134,
+          133,
+          126,
+          133,
+          83,
+          112,
+          105,
+          100,
+          101,
+          114,
+          39,
+          115,
+          134,
+          134,
+          78,
+          117,
+          100,
+          101,
+          32,
+          66,
+          101,
+          97,
+          99,
+          104,
+          133,
+          125,
+          133
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Flag.x99w.CC_spiderintersection",
+    "name": "Flag",
+    "in": "context-CC_spiderintersection",
+    "mods": [
+      {
+        "type": "Flag",
+        "x": 96,
+        "y": 148,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 48,
+        "mass": 0
+      }
+    ]
+  }
+]

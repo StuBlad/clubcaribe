@@ -1,0 +1,228 @@
+[
+  {
+    "capacity": 64,
+    "mods": [
+      {
+        "town_dir": "",
+        "neighbors": [
+          "",
+          "context-Popustop.hall3.line384",
+          "",
+          "context-160.elby.line354"
+        ],
+        "realm": "Popustop",
+        "orientation": 3,
+        "nitty_bits": 3,
+        "port_dir": "",
+        "type": "Region",
+        "x": 0,
+        "y": 0,
+        "style": 0,
+        "gr_state": 0
+      }
+    ],
+    "ref": "context-CC_lockerlobby",
+    "name": "",
+    "type": "context"
+  },
+  {
+    "ref": "item-wall.CC_lockerlobby",
+    "mods": [
+      {
+        "y": 0,
+        "x": 0,
+        "style": 4,
+        "type": "Wall",
+        "orientation": 160,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Wall",
+    "in": "context-CC_lockerlobby"
+  },
+  {
+    "ref": "item-ground.CC_lockerlobby",
+    "mods": [
+      {
+        "y": 4,
+        "x": 0,
+        "style": 1,
+        "type": "Ground",
+        "orientation": 56,
+        "gr_state": 0
+      }
+    ],
+    "type": "item",
+    "name": "Ground",
+    "in": "context-CC_lockerlobby"
+  },
+  {
+    "ref": "item-door0.CC_lockerlobby",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 196,
+        "connection": "context-Popustop.409",
+        "gr_state": 0,
+        "y": 32,
+        "x": 8,
+        "type": "Door",
+        "open_flags": 2
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_lockerlobby"
+  },
+  {
+    "ref": "item-door2.CC_lockerlobby",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 196,
+        "connection": "context-Popustop.411",
+        "gr_state": 0,
+        "y": 32,
+        "x": 124,
+        "type": "Door",
+        "open_flags": 2
+      }
+    ],
+    "type": "item",
+    "name": "Door",
+    "in": "context-CC_lockerlobby"
+  },
+  {
+    "ref": "item-street.CC_lockerlobby",
+    "mods": [
+      {
+        "style": 0,
+        "orientation": 144,
+        "gr_state": 6,
+        "y": 6,
+        "x": 68,
+        "type": "Street"
+      }
+    ],
+    "type": "item",
+    "name": "Street",
+    "in": "context-CC_lockerlobby"
+  },
+  {
+    "type": "item",
+    "ref": "Teleport.yuhd.CC_lockerlobby",
+    "name": "Teleport",
+    "in": "context-CC_lockerlobby",
+    "mods": [
+      {
+        "type": "Teleport",
+        "x": 32,
+        "y": 133,
+        "style": 0,
+        "gr_state": 0,
+        "orientation": 8,
+        "address": "Pop-lockerlobby",
+        "take": 310,
+        "activeState": 0
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.b7ev.context-CC_lockerlobby",
+    "name": "Sign",
+    "in": "context-CC_lockerlobby",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 12,
+        "y": 112,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          133,
+          85,
+          80,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          128,
+          68,
+          79,
+          87,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Sign.2pgj.context-CC_lockerlobby",
+    "name": "Sign",
+    "in": "context-CC_lockerlobby",
+    "mods": [
+      {
+        "type": "Sign",
+        "x": 43,
+        "y": 80,
+        "style": 0,
+        "gr_state": 1,
+        "orientation": 0,
+        "ascii": [
+          133,
+          129,
+          126,
+          65,
+          32,
+          66,
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Plaque.doim.context-CC_lockerlobby",
+    "name": "Plaque",
+    "in": "context-CC_lockerlobby",
+    "mods": [
+      {
+        "type": "Plaque",
+        "x": 36,
+        "y": 131,
+        "style": 2,
+        "gr_state": 0,
+        "orientation": 16,
+        "last_page": 1,
+        "pages": [],
+        "path": "text-bookofrecords"
+      }
+    ]
+  },
+  {
+    "type": "item",
+    "ref": "Head.aobl.context-CC_lockerlobby",
+    "name": "Head",
+    "in": "context-CC_lockerlobby",
+    "mods": [
+      {
+        "type": "Head",
+        "x": 88,
+        "y": 90,
+        "style": 12,
+        "gr_state": 0,
+        "orientation": 33
+      }
+    ]
+  }
+]
